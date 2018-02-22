@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>kdm-cards</title>
+	<link rel="stylesheet" href="cards.css">
+</head>
+<body>
+	<div id="app" class="card-container">
+		<div class="card -disorder" v-for="disorder in cards.disorder">
+			<div class="card__title">{{ disorder.name }}</div>
+			<div class="card__text">
+				<div class="text__content" v-html="disorder.desc"></div>
+			</div>
+		</div>
+	
+		<div class="card -fighting-art" v-for="fa in cards.fa">
+			<div class="card__title">{{ fa.name }}</div>
+			<div class="card__text">
+				<div class="text__content" v-html="fa.desc"></div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="cards.js"></script>
+</body>
+</html>
