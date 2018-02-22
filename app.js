@@ -3,33 +3,31 @@ const path = require('path')
 const fs = require('fs')
 const randomstring = require('randomstring')
 
-var filename
+var filename= ''
 
-let chromy = new Chromy()
+let chromy = new Chromy({visible:true})
 chromy.chain()
-      .goto('http://localhost:8000/test.html')
-    //   .wait(1)
+      .goto('http://localhost:8000/dist/disorder.html')
+      .wait(500)
     //   .screenshotMultipleSelectors('.card')
     // .screenshotSelector('.card')
-    .screenshotMultipleSelectors(
-        ['.card'],
-        handlescreenshots,
-        {useQuerySelectorAll: true}
-    )
+    
+   .screenshotMultipleSelectors("div.card",  function(error, image, index, selectors, subIndex) {
+      // if(error) {console.log("error", error)}
+      // console.log("image", image)
+      console.log("index", index)
+      console.log("selectors", selectors)
+      console.log("subIndex", subIndex)
+      
 
-    //   .result((png) => {
-    //     filename = 'shots/' + randomstring.generate(17) + '.png'
-    //     fs.writeFileSync(filename, png)
-    //     // fs.writeFileSync('shots/test.png', png)
-    //   })
+        filename = 'shots/' + subIndex + randomstring.generate(17) + '.png'
+        fs.writeFileSync(filename, image)
+     })
+
+      
       .end()
       .then(_ => chromy.close())
       .catch(e => {
         console.log(e)
         chromy.close()
       })
-
-function handlescreenshots(error, png, index, selectors, sub){
-  console.log('>>>',error, selectors[index], sub);
-  fs.writeFileSync(`./shots/${selectors[index]}_${sub}.png`, png);
-}
