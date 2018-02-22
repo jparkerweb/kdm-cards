@@ -12,14 +12,30 @@
 		<div class="card -disorder" v-for="disorder in cards.disorder">
 			<div class="card__title">{{ disorder.name }}</div>
 			<div class="card__text">
-				<div class="text__content" v-html="disorder.desc"></div>
+				<div class="text__content"
+					v-html="disorder.desc"
+					:class="disorder.size ? disorder.size : ''"
+				></div>
 			</div>
 		</div>
 	
 		<div class="card -fighting-art" v-for="fa in cards.fa">
 			<div class="card__title">{{ fa.name }}</div>
 			<div class="card__text">
-				<div class="text__content" v-html="fa.desc"></div>
+				<div class="text__content"
+					v-html="fa.desc"
+					:class="fa.size ? fa.size : ''"
+				></div>
+			</div>
+		</div>
+	
+		<div class="card -secret-fighting-art" v-for="sfa in cards.sfa">
+			<div class="card__title">{{ sfa.name }}</div>
+			<div class="card__text">
+				<div class="text__content" 
+					v-html="sfa.desc"
+					:class="sfa.size ? sfa.size : ''"
+				></div>
 			</div>
 		</div>
 	</div>

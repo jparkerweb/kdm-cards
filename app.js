@@ -30,8 +30,6 @@ let chromy = new Chromy({visible:true})
 chromy.chain()
 	.goto('http://localhost:8000/cards.html')
 	.wait(500)
-	// .screenshotMultipleSelectors('.card')
-	// .screenshotSelector('.card')
 	.screenshotMultipleSelectors([".-disorder", ".-fighting-art"],  function(error, image, index, selectors, subIndex) {
 		// console.log("index", index)
 		// console.log("selectors", selectors)
