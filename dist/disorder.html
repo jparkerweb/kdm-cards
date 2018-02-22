@@ -4,7 +4,14 @@
     <div class="card -disorder" v-for="disorder in cards.disorders">
         <div class="card__title">{{ disorder.name }}</div>
         <div class="card__text">
-            <div class="text__content" v-html="disorder.survivor_effect"></div>
+            <div class="text__content" v-html="disorder.desc"></div>
+        </div>
+    </div>
+
+    <div class="card -fighting-art" v-for="fa in cards.fa">
+        <div class="card__title">{{ fa.name }}</div>
+        <div class="card__text">
+            <div class="text__content" v-html="fa.desc"></div>
         </div>
     </div>
 </div>

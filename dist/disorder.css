@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+
+@font-face {
+  font-family: 'kdm-font-10';
+  src: url('/fonts/kdm-font-10.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/kdm-font-10.ttf') format('truetype'),
+      url('/fonts/kdm-font-10-webfont.woff') format('woff'),
+      url('/fonts/kdm-font-10-webfont.woff2') format('woff2');
+}
+.kdm_font, .kdm_font_10 {font-family: 'kdm-font-10'; }
+
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
