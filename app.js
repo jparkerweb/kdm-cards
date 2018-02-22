@@ -4,6 +4,7 @@ const fs = require('fs')
 const randomstring = require('randomstring')
 
 var directory = "shots"
+var url = "http://localhost:8000/cards.html"
 
 
 // creats shots directory if is doesn't already exist
@@ -28,9 +29,9 @@ var selectorName = ''
 
 let chromy = new Chromy({visible:true})
 chromy.chain()
-	.goto('http://localhost:8000/cards.html')
+	.goto(url)
 	.wait(500)
-	.screenshotMultipleSelectors([".-disorder", ".-fighting-art"],  function(error, image, index, selectors, subIndex) {
+	.screenshotMultipleSelectors([".-disorder", ".-fighting-art", ".-secret-fighting-art"],  function(error, image, index, selectors, subIndex) {
 		// console.log("index", index)
 		// console.log("selectors", selectors)
 		// console.log("subIndex", subIndex)
