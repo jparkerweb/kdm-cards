@@ -3,16 +3,16 @@ const path = require('path')
 const fs = require('fs')
 const randomstring = require('randomstring')
 
-var directory = "shots"
+var directory = "screenshots"
 var url = "http://localhost:8000/cards.html"
 
 
-// creats shots directory if is doesn't already exist
+// creats screen shots directory if is doesn't already exist
 if (!fs.existsSync("./" + directory)){
     fs.mkdirSync("./" + directory);
 }
 
-// clean out shots directory from previous run
+// clean out screen shots directory from previous run
 fs.readdir(directory, (err, files) => {
   if (err) throw err;
 
@@ -27,10 +27,10 @@ fs.readdir(directory, (err, files) => {
 var filename = ''
 var selectorName = ''
 
-let chromy = new Chromy({visible:true})
+let chromy = new Chromy({visible:false})
 chromy.chain()
 	.goto(url)
-	.wait(500)
+	.wait(1000)
 	.screenshotMultipleSelectors([".-disorder", ".-fighting-art", ".-secret-fighting-art"],  function(error, image, index, selectors, subIndex) {
 		// console.log("index", index)
 		// console.log("selectors", selectors)
