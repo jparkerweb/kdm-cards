@@ -21,7 +21,9 @@ Generate `disorder`, `fighting arts`, and `secret fighting arts` cards, to uploa
 * run the app:  
 `node app`
 
-## Example
+## Example Set of Generated Cards
+![Example](./example-cards.png)  
+## Demo of Application
 ![Example](./example.gif)  
 
 ### JSON Data Sources
