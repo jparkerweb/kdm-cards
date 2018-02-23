@@ -1,9 +1,8 @@
 const Chromy = require('chromy')
 const path = require('path')
-const fs = require('fs')
-const randomstring = require('randomstring')
+const fs = require('fs-extra')
 
-var directory = "screenshots"
+var directory = "generated-cards"
 var url = "http://localhost:8000/cards.html"
 
 
@@ -27,23 +26,42 @@ fs.readdir(directory, (err, files) => {
 var filename = ''
 var selectorName = ''
 
+console.log("please wait, taking screen shots...")
+
 let chromy = new Chromy({visible:false})
 chromy.chain()
 	.goto(url)
-	.wait(1000)
-	.screenshotMultipleSelectors([".-disorder", ".-fighting-art", ".-secret-fighting-art"],  function(error, image, index, selectors, subIndex) {
-		// console.log("index", index)
-		// console.log("selectors", selectors)
-		// console.log("subIndex", subIndex)
-		if(index >= 0 && subIndex >= 0) {
-			selectorName = selectors[index].replace(/[\.-]/g, "")
-			filename = directory + '/' + selectorName + "_" + randomstring.generate(17) + '.png'
-			fs.writeFileSync(filename, image)
-		}
-	}, {useQuerySelectorAll: true})
+	.wait(500)
+	.screenshotMultipleSelectors(
+		[".-disorder", ".-fighting-art", ".-secret-fighting-art"],
+		function(error, image, index, selectors, subIndex) {
+			if(index >= 0 && subIndex >= 0) {
+				selectorName = selectors[index].replace(/[\.-]/g, "")
+				filename = directory + '/' + selectorName + "_" + (subIndex + 1) + '.png'
+				console.log("saving: ", filename)
+				fs.writeFileSync(filename, image)
+			}
+		},
+		{ useQuerySelectorAll: true }
+	)
 	.end()
 	.then(_ => chromy.close())
 	.catch(e => {
 		console.log(e)
 		chromy.close()
 	})
+
+// copy card backs
+copyCardBack('disorder_back.jpg')
+copyCardBack('fightingart_back.jpg')
+copyCardBack('secretfightingart_back.jpg')
+
+function copyCardBack(src) {
+	var dest = './generated-cards/' + src
+	src = './card-backs/' + src
+
+	fs.copy(src, dest, err => {
+		if (err) return console.error(err)
+		console.log('created: ', dest)
+	})
+}
