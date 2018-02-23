@@ -19,7 +19,7 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	font-size: 19px;
+	font-size: 40px;
 	font-family: 'Roboto', sans-serif;
 	-ms-flex-wrap: wrap;
 			flex-wrap: wrap;
@@ -29,8 +29,7 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	margin-right: 1px;
-	margin-bottom: 1px;
+	margin: 0;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 			-ms-flex-direction: column;
@@ -68,7 +67,7 @@
 	color: #FFF;
 }
 .card .card__title {
-	padding: 30px 20px 10px;
+	padding: 1.578em 1.0528em .526em;
 	background: lightblue;
 	text-align: center;
 	font-weight: 600;
