@@ -198,13 +198,13 @@
 			"desc": "At the start of a showdown, gain the <b>Momentum</b> survivor status card.<br/><br> When you attack, if you have 5+ momentum tokens, remove them all and roll 1d10. Gain that amount of luck and strength when attempting to wound the first selected hit location for this attack.",
 			"expansion": "dung_beetle_knight",
 			"name": "Propulsion Drive",
-			"size": "-medium"
+			"size": "-small"
 		},
 		{
 			"desc": "During the Hunt and Settlement phase, whenever you roll on a table, you may add +1 to the roll result. This may not exceed the highest possible result of that table.<br/><br>(This includes Hunt Events, Story Events, Endeavors, Settlement Events, etc.)",
 			"expansion": "flower_knight",
 			"name": "Otherworldly Luck",
-			"size": "-medium"
+			"size": "-small"
 		},
 		{
 			"desc": "Once per showdown, you may spend <font class='kdm_font'>a</font> to give yourself a seizure. You suffer a random brain trauma and are knocked down.",
@@ -224,7 +224,8 @@
 		{
 			"desc": "Once per showdown, if you are standing adjacent to the monster and have 3+ survival, you may spend all of your survival for one automatic hit that inflicts a critical wound.",
 			"expansion": "lion_god",
-			"name": "Heroic"
+			"name": "Heroic",
+			"size": "-medium"
 		},
 		{
 			"desc": "Whenever a survivor dies during the showdown, roll 1d10. On a 7+, gain a <b>Skull</b> basic resource.",
@@ -244,7 +245,8 @@
 		{
 			"desc": "When your wound attempt on a hit location is a failure, you may put that hit location back on top of the deck instead of in the discard pile.<br/><br>Limit, once per round.",
 			"expansion": "lion_knight",
-			"name": "Tenacious"
+			"name": "Tenacious",
+			"size": "-medium"
 		},
 		{
 			"desc": "When you suffer a severe injury at a hit location, you may archive a gear worn at that location to ignore it and gain +1 survival.",
@@ -254,7 +256,8 @@
 		{
 			"desc": "The first time you wound the monster each attack, gain +1 survival and +1 insanity.<br/><br>Ignore the effects of the <b>Fear of the Dark</b> and <b>Prey</b> disorders.",
 			"expansion": "manhunter",
-			"name": "Abyssal Sadist"
+			"name": "Abyssal Sadist",
+			"size": "-medium"
 		},
 		{
 			"desc": "Whenever a random hunt event result is:<br/><br>11, 22, 33, 44, 55, 66, 77, 88, 99 or 100,<br/><br>the event revealer gains +1 understanding and +1 courage.",
@@ -271,7 +274,8 @@
 		{
 			"desc": "When you gain a bleeding token, gain +1 survival and +1 insanity.<br/><br>Ignore the effects of the <b>Aichmophobia</b> and <b>Apathetic</b> disorders.",
 			"expansion": "manhunter",
-			"name": "Transcended Masochist"
+			"name": "Transcended Masochist",
+			"size": "-medium"
 		},
 		{
 			"desc": "When you suffer a brain trauma, gain a bleeding token.",
@@ -282,7 +286,7 @@
 			"desc": "The first time you gain a resource during a showdown, you may feed it to your phantom friend. If you do, archive the resources and gain +1 evasion token.<br/><br>Lose this token if you are <b>deaf</b> or become <b>deaf</b> during the showdown.",
 			"expansion": "slenderman",
 			"name": "Phantom Friend",
-			"size": "-medium"
+			"size": "-small"
 		},
 		{
 			"desc": "Gain +3 movement. Whenever you are knocked down, gain -1 movement token.<br/><br>If you have the <b>Tiny Arachnophobia</b> disorder, you are too scared of spiders to imitate them and you cannot use this fighting art.",
