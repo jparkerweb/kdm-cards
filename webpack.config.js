@@ -3,7 +3,8 @@ const path = require('path');
 module.exports = {
 	entry: {
 		cards: './cards.js',
-		cardsExpansions: './cards-expansions.js'
+		cardsExpansions: './cards-expansions.js',
+		injuries: './injuries.js'
 	},
 	output: {
 		path: path.resolve(__dirname, 'website'),

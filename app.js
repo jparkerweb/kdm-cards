@@ -4,6 +4,8 @@ const fs = require('fs-extra')
 
 var directory = "generated-cards"
 var url = "http://localhost:8000/cards.html"
+// var url = "http://localhost:8000/cards-expansions.html"
+// var url = "http://localhost:8000/injuries.html"
 
 
 // creats screen shots directory if is doesn't already exist
@@ -33,7 +35,7 @@ chromy.chain()
 	.goto(url)
 	.wait(500)
 	.screenshotMultipleSelectors(
-		[".-disorder", ".-fighting-art", ".-secret-fighting-art"],
+		[".-disorder", ".-fighting-art", ".-secret-fighting-art", ".-injuries", ".-abilities"],
 		function(error, image, index, selectors, subIndex) {
 			if(index >= 0 && subIndex >= 0) {
 				selectorName = selectors[index].replace(/[\.-]/g, "")
@@ -52,8 +54,10 @@ chromy.chain()
 	})
 
 // copy card backs
+copyCardBack('ability_back.jpg')
 copyCardBack('disorder_back.jpg')
 copyCardBack('fightingart_back.jpg')
+copyCardBack('injury_back.jpg')
 copyCardBack('secretfightingart_back.jpg')
 
 function copyCardBack(src) {

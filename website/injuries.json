@@ -1,0 +1,176 @@
+{
+	"injuries": [
+		{
+			"location": "Severe Head Injury",
+			"name": "Intracranial Hemorrhage",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>You cannot gain or spend <strong>survival</strong>"
+		},
+		{
+			"location": "Severe Head Injury",
+			"name": "Deaf",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>-1 permanent evasion.<br><br>You cannot be encouraged."
+		},
+		{
+			"location": "Severe Head Injury",
+			"name": "Blind",
+			"desc": "<span class='-text-smaller'>(can record twice)</span><br>Gain +1 bleeding token.<br><br>First Injury: -1 permanent accuracy.<br>Second Injury: -4 permanent accuracy and retire at end of showdown or settlement phase.",
+			"size": "-medium"
+		},
+		{
+			"location": "Severe Head Injury",
+			"name": "Shattered Jaw",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>You cannot <strong>consume</strong>.<br><br>You cannot <strong>Encourage</strong>."
+		},
+		{
+			"location": "Severe Arm Injury",
+			"name": "Dismembered Arm",
+			"desc": "<span class='-text-smaller'>(can record twice)</span><br>Gain +1 bleeding token.<br><br>First Injury: Cannot activate two-handed weapons.<br>Second Injury: Cannot activate any weapons."
+		},
+		{
+			"location": "Severe Arm Injury",
+			"name": "Ruptured Muscle",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>You cannot activate <strong>Fighting Arts</strong>."
+		},
+		{
+			"location": "Severe Arm Injury",
+			"name": "Contracture",
+			"desc": "<span class='-text-smaller'>(can record multiple times)</span><br>Gain +1 bleeding token.<br><br>-1 permanent accuracy"
+		},
+		{
+			"location": "Severe Arm Injury",
+			"name": "Broken Arm",
+			"desc": "<span class='-text-smaller'>(can record twice)</span><br>Gain +1 bleeding token.<br><br>-1 permanent accuracy.<br><br>-1 permanent strength."
+		},
+		{
+			"location": "Severe Arm Injury",
+			"name": "Dislocated Shoulder",
+			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br><br>You cannot activate two-handed or paired weapons or use block."
+		},
+		{
+			"location": "Servere Body Injury",
+			"name": "Gaping Chest Wound",
+			"desc": "<span class='-text-smaller'>(can record multiple times)</span><br>Gain +1 bleeding token.<br><br>-1 permanent strength."
+		},
+		{
+			"location": "Servere Body Injury",
+			"name": "Destroyed Back",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>-1 permanent movement.<br><br>Cannot activate gear with 2+ strength."
+		},
+		{
+			"location": "Servere Body Injury",
+			"name": "Disemboweled",
+			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br>Skip next hunt.<br><br>Movement is 1.<br><br>If you are the only survivor alive when showdown ends, you die.",
+			"size": "-medium"
+		},
+		{
+			"location": "Servere Body Injury",
+			"name": "Broken Rib",
+			"desc": "<span class='-text-smaller'>(can record multiple times)</span><br>Gain +1 bleeding token.<br><br>-1 permanent speed."
+		},
+		{
+			"location": "Servere Waist Injury",
+			"name": "Intestinal Prolapse",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>You cannot equip gear to your waist."
+		},
+		{
+			"location": "Servere Waist Injury",
+			"name": "Warped Pelvis",
+			"desc": "<span class='-text-smaller'>(can record multiple times)</span><br>Gain +1 bleeding token.<br><br>-1 permanent luck."
+		},
+		{
+			"location": "Servere Waist Injury",
+			"name": "Destroyed Genitals",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token, a random disorder, and +3 insanity.<br><br>You are Knocked Down.<br><br>You cannot be nominated for <strong>Intimacy</strong>.",
+			"size": "-medium"
+		},
+		{
+			"location": "Servere Waist Injury",
+			"name": "Broken Hip",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>-1 permanent movement.<br><br>You cannot <strong>Dodge</strong>."
+		},
+		{
+			"location": "Servere Waist Injury",
+			"name": "Slashed Back",
+			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br><br>You cannot <strong>Surge</strong>."
+		},
+		{
+			"location": "Servere Waist Injury",
+			"name": "Bruised Tail-bone",
+			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br><br>You are Knocked Down.<br><br>You cannot <strong>Dash</strong>."
+		},
+		{
+			"location": "Servere Leg Injury",
+			"name": "Dismembered Leg",
+			"desc": "<span class='-text-smaller'>(can record twice)</span><br>Gain +1 bleeding token.<br><br>-2 permanent movement.<br><br>You cannot <strong>Dash</strong>.<br>Second Injury: Retire at end of showdown or settlement phase",
+			"size": "-medium"
+		},
+		{
+			"location": "Servere Leg Injury",
+			"name": "Hamstrung",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>You cannot use Fighting Arts or Abilities."
+		},
+		{
+			"location": "Servere Leg Injury",
+			"name": "Torn Achilles Tendon",
+			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br>Skip next hunt.<br><br>You cannot <strong>Dash</strong>"
+		},
+		{
+			"location": "Servere Leg Injury",
+			"name": "Broken Leg",
+			"desc": "<span class='-text-smaller'>(can record twice)</span><br>Gain +1 bleeding token.<br><br>-1 permanent Movement<br><br>When suffered, adjacent survivors suffer 1 brain damage."
+		},
+		{
+			"location": "Brain Trauma",
+			"name": "Frenzy",
+			"desc": "(can gain multiple times)<br>Gain +1d5 insanity.<br>Gain +1 speed, +1 strength tokens.<br>You cannot spend survival (unless you have <strong>Bitter Frenzy</strong>). You cannot use fighting arts, weapon specialization or mastery.<br><br>(Lasts until end of showdown)",
+			"size": "-small"
+		}
+	],
+	"abilities": [
+		{
+			"location": "Ability",
+			"name": "Sweet Battle",
+			"desc": "Once per round, you may Surge without spending survival, but it must be used to activate a weapon."
+		},
+		{
+			"location": "Ability",
+			"name": "Bitter Frenzy",
+			"desc": "Each Showdown, the first time you suffer the <strong>Frenzy</strong> brain trauma, gain 1d10 Survival. You may spend survival while Frenzied."
+		},
+		{
+			"location": "Ability",
+			"name": "Sour Death",
+			"desc": "When you are knocked down, you may Encourage yourself (even if you are Deaf). If you do, gain +1 Strength token."
+		},
+		{
+			"location": "Ability",
+			"name": "Ageless",
+			"desc": "You may hunt if you are retired. When you gain Hunt XP, you may decide not to gain it. (Saviors cannot use Ageless)."
+		},
+		{
+			"location": "Ability",
+			"name": "Peerless",
+			"desc": "When you gain Insanity, you may gain an equal amount of Survival."
+		},
+		{
+			"location": "Ability",
+			"name": "Leyline Walker",
+			"desc": "While there is no armor or accessory gear in your gear grid, gain +3 evasion."
+		},
+		{
+			"location": "Ability",
+			"name": "Story of the Forsaken",
+			"desc": "You cannot be knocked down during a showdown with a nemesis monster."
+		},
+		{
+			"location": "Ability",
+			"name": "Story of the Young Hero",
+			"desc": "At the start of your act, you may recall the heroic sacrifice from the story and bite your wrist. Gain 2 bleeding tokens and +1 survival."
+		},
+		{
+			"location": "Ability",
+			"name": "Story of the Goblin",
+			"desc": "Once per showdown you may speak it out loud and roll 1d10. On a 3+, gain the Priority Target token, and the monster gains +1 Damage token."
+		}
+	]
+}

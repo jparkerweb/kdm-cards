@@ -1,6 +1,6 @@
 {
   "name": "kdm-cards",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "axios": "0.18.0",
     "chromy": "0.5.11",
     "randomstring": "1.1.5",
-    "vue": "2.5.16"
+    "vue": "2.5.16",
+    "fs-extra": "5.0.0"
   }
 }
