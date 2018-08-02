@@ -159,18 +159,18 @@
 		},
 		{
 			"location": "Ability",
-			"name": "Story of the Forsaken",
+			"name": "Story of the Forsaker",
 			"desc": "You cannot be knocked down during a showdown with a nemesis monster."
 		},
 		{
 			"location": "Ability",
 			"name": "Story of the Young Hero",
-			"desc": "At the start of your act, you may recall the heroic sacrifice from the story and bite your wrist. Gain 2 bleeding tokens and +1 survival."
+			"desc": "At the start of each of your acts, you may choose to gain 1 survival and 2 bleeding tokens."
 		},
 		{
 			"location": "Ability",
 			"name": "Story of the Goblin",
-			"desc": "Once per showdown you may speak it out loud and roll 1d10. On a 3+, gain the Priority Target token, and the monster gains +1 Damage token."
+			"desc": "Once per showdown, you may roll 1d10. On a 3+, gain the <strong>priority target</strong> token and the monster gains +1 damage token."
 		}
 	]
 }
