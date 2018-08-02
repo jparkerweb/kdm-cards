@@ -171,6 +171,19 @@
 			"location": "Ability",
 			"name": "Story of the Goblin",
 			"desc": "Once per showdown, you may roll 1d10. On a 3+, gain the <strong>priority target</strong> token and the monster gains +1 damage token."
+		},
+
+
+
+
+
+
+
+		{
+			"location": "Ability",
+			"name": "Acid Palms",
+			"desc": "Add 1d10 strength to wound attempts when attacking with Fist & Tooth."
 		}
+
 	]
 }
