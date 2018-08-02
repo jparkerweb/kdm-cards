@@ -147,3 +147,14 @@
 .-text-smaller {
 	font-size: .8em;
 }
+
+.red-square {
+	display: inline-block;
+	width: .7em;
+	height: .7em; 
+	background-color: red;
+    background-clip:content-box;
+    padding:2px;
+    border:3px solid red;
+	border-radius: 5px;
+}
