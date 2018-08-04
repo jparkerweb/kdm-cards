@@ -140,7 +140,7 @@
 		{
 			"location": "Ability",
 			"name": "Sweet Battle",
-			"desc": "Once per round, you may Surge without spending survival, but it must be used to activate a weapon."
+			"desc": "Once per round, you may <strong>surge</strong> without spending <strong>survival</strong>, but it must be used to activate a weapon."
 		},
 		{
 			"location": "Ability",
@@ -155,7 +155,7 @@
 		{
 			"location": "Ability",
 			"name": "Ageless",
-			"desc": "<span class='-text-smaller'>(Saviors cannot use Ageless)</span><br>You may hunt if you are retired.<br><br>When you gain <strong>Hunt XP</strong>, you may decide not to gain it."
+			"desc": "<span class='-text-smaller'>(Saviors cannot use Ageless)</span><br>You may <strong>hunt</strong> if you are <strong>retired</strong>.<br><br>When you gain <strong>Hunt XP</strong>, you may decide not to gain it."
 		},
 		{
 			"location": "Ability",
@@ -180,15 +180,8 @@
 		{
 			"location": "Ability",
 			"name": "Story of the Goblin",
-			"desc": "Once per showdown, you may roll 1d10. On a 3+, gain the <strong>priority target</strong> token and the monster gains +1 damage token."
+			"desc": "Once per <strong>showdown</strong>, you may roll 1d10. On a 3+, gain the <strong>priority target</strong> token and the monster gains +1 damage token."
 		},
-
-
-
-
-
-
-
 		{
 			"location": "Ability",
 			"name": "Acid Palms",
@@ -234,13 +227,18 @@
 		},
 		{
 			"location": "Ability",
+			"name": "Homing Instinct",
+			"desc": "Add +5 to your rolls on the <strong>Run Away</strong> story event."
+		},
+		{
+			"location": "Ability",
 			"name": "Iron Will",
 			"desc": "You cannot be <strong>knocked down</strong>.<br><br>Reduce all <strong>knockback</strong> you suffer to <strong>knockback 1</strong>."
 		},
 		{
 			"location": "Ability",
 			"name": "Legendcaller",
-			"desc": " Once per lifetime, on a <strong>hunt board</strong> space, after the <strong>Overwhelming Darkness</strong> space:<br><br>In place of rolling a random hunt event, use <strong>53</strong> as your result."
+			"desc": "Once per lifetime, when on a <strong>hunt board</strong> space, after the <strong>Overwhelming Darkness</strong> space:<br><br>In place of rolling a random hunt event, use <strong>53</strong> as your result."
 		},
 		{
 			"location": "Ability",
@@ -269,8 +267,28 @@
 		},
 		{
 			"location": "Ability",
-			"name": "   ",
-			"desc": " "
+			"name": "Possessed",
+			"desc": "You cannot use <strong>weapon specialization</strong>, <strong>weapon mastery</strong>, or <strong>fighting arts</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Prepared",
+			"desc": "When rolling to determine a <strong>straggler</strong>, add your <strong>hunt XP</strong> to your roll result."
+		},
+		{
+			"location": "Ability",
+			"name": "Stalwart",
+			"desc": "Ignore <strong>knocked down</strong> effects of <strong>brain trauma</strong>, <strong>disorders</strong>, and <strong>intimidation</strong> actions."
+		},
+		{
+			"location": "Ability",
+			"name": "Thundercaller",
+			"desc": "Once per lifetime, when on a <strong>hunt board</strong> space, after the <strong>Overwhelming Darkness</strong> space:<br><br>In place of rolling a random hunt event, use <strong>100</strong> as your result."
+		},
+		{
+			"location": "Ability",
+			"name": "Tinker",
+			"desc": "When you are a <strong>returning survivor</strong>, gain +1 <strong>endeavor</strong> to use this <strong>settlement phase</strong>."
 		}
 	]
 }
