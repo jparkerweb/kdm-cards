@@ -139,48 +139,8 @@
 	"abilities": [
 		{
 			"location": "Ability",
-			"name": "Sweet Battle",
-			"desc": "Once per round, you may <strong>surge</strong> without spending <strong>survival</strong>, but it must be used to activate a weapon."
-		},
-		{
-			"location": "Ability",
-			"name": "Bitter Frenzy",
-			"desc": "Each Showdown, the first time you suffer the <strong>Frenzy</strong> brain trauma, gain 1d10 Survival. You may spend survival while Frenzied."
-		},
-		{
-			"location": "Ability",
-			"name": "Sour Death",
-			"desc": "When you are <strong>knocked down</strong>, you may Encourage yourself (even if you are Deaf). If you do, gain +1 Strength token."
-		},
-		{
-			"location": "Ability",
 			"name": "Ageless",
 			"desc": "<span class='-text-smaller'>(Saviors cannot use Ageless)</span><br>You may <strong>hunt</strong> if you are <strong>retired</strong>.<br><br>When you gain <strong>Hunt XP</strong>, you may decide not to gain it."
-		},
-		{
-			"location": "Ability",
-			"name": "Peerless",
-			"desc": "When you gain <strong>Insanity</strong>, you may gain an equal amount of <strong>Survival</strong>."
-		},
-		{
-			"location": "Ability",
-			"name": "Leyline Walker",
-			"desc": "While there is no <strong>armor</strong> or <strong>accessory</strong> gear in your gear grid, gain +3 <strong>evasion</strong>."
-		},
-		{
-			"location": "Ability",
-			"name": "Story of the Forsaker",
-			"desc": "You cannot be <strong>knocked down</strong> during a showdown with a <strong>Nemesis Monster</strong>."
-		},
-		{
-			"location": "Ability",
-			"name": "Story of the Young Hero",
-			"desc": "At the start of each of your <strong>acts</strong>, you may choose to gain 1 <strong>survival</strong> and 2 <strong>bleeding</strong> tokens."
-		},
-		{
-			"location": "Ability",
-			"name": "Story of the Goblin",
-			"desc": "Once per <strong>showdown</strong>, you may roll 1d10. On a 3+, gain the <strong>priority target</strong> token and the monster gains +1 damage token."
 		},
 		{
 			"location": "Ability",
@@ -191,6 +151,11 @@
 			"location": "Ability",
 			"name": "Analyze",
 			"desc": "At the <strong>start of the survivors turn</strong>, if you are adjacent to the monster, reveal the top Al card, then place it back on top of the deck."
+		},
+		{
+			"location": "Ability",
+			"name": "Bitter Frenzy",
+			"desc": "Each Showdown, the first time you suffer the <strong>Frenzy</strong> brain trauma, gain 1d10 Survival. You may spend survival while Frenzied."
 		},
 		{
 			"location": "Ability",
@@ -242,6 +207,11 @@
 		},
 		{
 			"location": "Ability",
+			"name": "Leyline Walker",
+			"desc": "While there is no <strong>armor</strong> or <strong>accessory</strong> gear in your gear grid, gain +3 <strong>evasion</strong>."
+		},
+		{
+			"location": "Ability",
 			"name": "Lucernae",
 			"desc": "<strong>Wound attempts</strong> may gain X <strong>Luck</strong>. X cannot be more than your total <div class='affinity -blue'></div>.<br><br>When the attack ends, gain +X <strong>hunt XP</strong>."
 		},
@@ -267,6 +237,11 @@
 		},
 		{
 			"location": "Ability",
+			"name": "Peerless",
+			"desc": "When you gain <strong>Insanity</strong>, you may gain an equal amount of <strong>Survival</strong>."
+		},
+		{
+			"location": "Ability",
 			"name": "Possessed",
 			"desc": "You cannot use <strong>weapon specialization</strong>, <strong>weapon mastery</strong>, or <strong>fighting arts</strong>."
 		},
@@ -277,8 +252,33 @@
 		},
 		{
 			"location": "Ability",
+			"name": "Sour Death",
+			"desc": "When you are <strong>knocked down</strong>, you may Encourage yourself (even if you are Deaf). If you do, gain +1 Strength token."
+		},
+		{
+			"location": "Ability",
 			"name": "Stalwart",
 			"desc": "Ignore <strong>knocked down</strong> effects of <strong>brain trauma</strong>, <strong>disorders</strong>, and <strong>intimidation</strong> actions."
+		},
+		{
+			"location": "Ability",
+			"name": "Story of the Forsaker",
+			"desc": "You cannot be <strong>knocked down</strong> during a showdown with a <strong>Nemesis Monster</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Story of the Goblin",
+			"desc": "Once per <strong>showdown</strong>, you may roll 1d10. On a 3+, gain the <strong>priority target</strong> token and the monster gains +1 damage token."
+		},
+		{
+			"location": "Ability",
+			"name": "Story of the Young Hero",
+			"desc": "At the start of each of your <strong>acts</strong>, you may choose to gain 1 <strong>survival</strong> and 2 <strong>bleeding</strong> tokens."
+		},
+		{
+			"location": "Ability",
+			"name": "Sweet Battle",
+			"desc": "Once per round, you may <strong>surge</strong> without spending <strong>survival</strong>, but it must be used to activate a weapon."
 		},
 		{
 			"location": "Ability",
