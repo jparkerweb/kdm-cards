@@ -129,6 +129,11 @@
 			"location": "Impairment",
 			"name": "Endless Babble",
 			"desc": "When you <strong>depart</strong>, departing survivors gain +1 insanity.<br><br>You cannot <strong>encourage</strong>."
+		},
+		{
+			"location": "Impairment",
+			"name": "Marrow Hunger",
+			"desc": "If the <strong>Murder</strong> or <strong>Skull Eater</strong> settlement events are drawn, nominate <strong>this survivor</strong>."
 		}
 	],
 	"abilities": [
@@ -231,6 +236,41 @@
 			"location": "Ability",
 			"name": "Iron Will",
 			"desc": "You cannot be <strong>knocked down</strong>.<br><br>Reduce all <strong>knockback</strong> you suffer to <strong>knockback 1</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Legendcaller",
+			"desc": " Once per lifetime, on a <strong>hunt board</strong> space, after the <strong>Overwhelming Darkness</strong> space:<br><br>In place of rolling a random hunt event, use <strong>53</strong> as your result."
+		},
+		{
+			"location": "Ability",
+			"name": "Lucernae",
+			"desc": "<strong>Wound attempts</strong> may gain X <strong>Luck</strong>. X cannot be more than your total <div class='affinity -blue'></div>.<br><br>When the attack ends, gain +X <strong>hunt XP</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Mad Grade",
+			"desc": "Once per <strong>showdown</strong>, as a monster draws an AI, name a card.<br><br>If the AI card drawn is the named card, gain +1 <strong>evasion token</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Mad Oracle",
+			"desc": "Once per <strong>showdown</strong>, as a monster draws an AI, name a card.<br><br>If the AI card drawn is the named card, gain +1 <strong>evasion token</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Matchmaker",
+			"desc": "When you are a <strong>returning survivor</strong>, once per lantern year, you may spend an <strong>endeavor</strong> to roll on the <strong>Intimacy event</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Metal Maw",
+			"desc": "Your <strong>Fist & Tooth</strong> attacks gain <strong>Sharp</strong>:<br><br>Add 1d10 <strong>strength</strong> to each <strong>wound attempt</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "   ",
+			"desc": " "
 		}
 	]
 }
