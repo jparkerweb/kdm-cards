@@ -134,6 +134,11 @@
 			"location": "Impairment",
 			"name": "Marrow Hunger",
 			"desc": "If the <strong>Murder</strong> or <strong>Skull Eater</strong> settlement events are drawn, nominate <strong>this survivor</strong>."
+		},
+		{
+			"location": "",
+			"name": "&nbsp;",
+			"desc": ""
 		}
 	],
 	"abilities": [
@@ -289,6 +294,11 @@
 			"location": "Ability",
 			"name": "Tinker",
 			"desc": "When you are a <strong>returning survivor</strong>, gain +1 <strong>endeavor</strong> to use this <strong>settlement phase</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "&nbsp;",
+			"desc": ""
 		}
 	]
 }
