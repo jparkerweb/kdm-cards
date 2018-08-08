@@ -47,75 +47,75 @@
 			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br><br>You cannot activate two-handed or paired weapons or use block."
 		},
 		{
-			"location": "Servere Body Injury",
+			"location": "Severe Body Injury",
 			"name": "Gaping Chest Wound",
 			"desc": "<span class='-text-smaller'>(can record multiple times)</span><br>Gain +1 bleeding token.<br><br>-1 permanent strength."
 		},
 		{
-			"location": "Servere Body Injury",
+			"location": "Severe Body Injury",
 			"name": "Destroyed Back",
 			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>-1 permanent movement.<br><br>Cannot activate gear with 2+ strength."
 		},
 		{
-			"location": "Servere Body Injury",
+			"location": "Severe Body Injury",
 			"name": "Disemboweled",
 			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br>Skip next hunt.<br><br>Movement is 1.<br><br>If you are the only survivor alive when showdown ends, you die.",
 			"size": "-medium"
 		},
 		{
-			"location": "Servere Body Injury",
+			"location": "Severe Body Injury",
 			"name": "Broken Rib",
 			"desc": "<span class='-text-smaller'>(can record multiple times)</span><br>Gain +1 bleeding token.<br><br>-1 permanent speed."
 		},
 		{
-			"location": "Servere Waist Injury",
+			"location": "Severe Waist Injury",
 			"name": "Intestinal Prolapse",
 			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>You cannot equip gear to your waist."
 		},
 		{
-			"location": "Servere Waist Injury",
+			"location": "Severe Waist Injury",
 			"name": "Warped Pelvis",
 			"desc": "<span class='-text-smaller'>(can record multiple times)</span><br>Gain +1 bleeding token.<br><br>-1 permanent luck."
 		},
 		{
-			"location": "Servere Waist Injury",
+			"location": "Severe Waist Injury",
 			"name": "Destroyed Genitals",
 			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token, a random disorder, and +3 insanity.<br><br>You are Knocked Down.<br><br>You cannot be nominated for <strong>Intimacy</strong>.",
 			"size": "-medium"
 		},
 		{
-			"location": "Servere Waist Injury",
+			"location": "Severe Waist Injury",
 			"name": "Broken Hip",
 			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>-1 permanent movement.<br><br>You cannot <strong>Dodge</strong>."
 		},
 		{
-			"location": "Servere Waist Injury",
+			"location": "Severe Waist Injury",
 			"name": "Slashed Back",
 			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br><br>You cannot <strong>Surge</strong>."
 		},
 		{
-			"location": "Servere Waist Injury",
+			"location": "Severe Waist Injury",
 			"name": "Bruised Tail-bone",
 			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br><br>You are Knocked Down.<br><br>You cannot <strong>Dash</strong>."
 		},
 		{
-			"location": "Servere Leg Injury",
+			"location": "Severe Leg Injury",
 			"name": "Dismembered Leg",
 			"desc": "<span class='-text-smaller'>(can record twice)</span><br>Gain +1 bleeding token.<br><br>-2 permanent movement.<br><br>You cannot <strong>Dash</strong>.<br>Second Injury: Retire at end of showdown or settlement phase",
 			"size": "-medium"
 		},
 		{
-			"location": "Servere Leg Injury",
+			"location": "Severe Leg Injury",
 			"name": "Hamstrung",
 			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>You cannot use Fighting Arts or Abilities."
 		},
 		{
-			"location": "Servere Leg Injury",
+			"location": "Severe Leg Injury",
 			"name": "Torn Achilles Tendon",
 			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br>Skip next hunt.<br><br>You cannot <strong>Dash</strong>"
 		},
 		{
-			"location": "Servere Leg Injury",
+			"location": "Severe Leg Injury",
 			"name": "Broken Leg",
 			"desc": "<span class='-text-smaller'>(can record twice)</span><br>Gain +1 bleeding token.<br><br>-1 permanent Movement<br><br>When suffered, adjacent survivors suffer 1 brain damage."
 		},
@@ -124,13 +124,38 @@
 			"name": "Frenzy",
 			"desc": "(can gain multiple times)<br>Gain +1d5 insanity.<br>Gain +1 speed, +1 strength tokens.<br>You cannot spend survival (unless you have <strong>Bitter Frenzy</strong>). You cannot use fighting arts, weapon specialization or mastery.<br><br>(Lasts until end of showdown)",
 			"size": "-small"
+		},
+		{
+			"location": "Impairment",
+			"name": "Endless Babble",
+			"desc": "When you <strong>depart</strong>, departing survivors gain +1 insanity.<br><br>You cannot <strong>encourage</strong>."
+		},
+		{
+			"location": "Impairment",
+			"name": "Marrow Hunger",
+			"desc": "If the <strong>Murder</strong> or <strong>Skull Eater</strong> settlement events are drawn, nominate <strong>this survivor</strong>."
+		},
+		{
+			"location": "",
+			"name": "&nbsp;",
+			"desc": ""
 		}
 	],
 	"abilities": [
 		{
 			"location": "Ability",
-			"name": "Sweet Battle",
-			"desc": "Once per round, you may Surge without spending survival, but it must be used to activate a weapon."
+			"name": "Ageless",
+			"desc": "<span class='-text-smaller'>(Saviors cannot use Ageless)</span><br>You may <strong>hunt</strong> if you are <strong>retired</strong>.<br><br>When you gain <strong>Hunt XP</strong>, you may decide not to gain it."
+		},
+		{
+			"location": "Ability",
+			"name": "Acid Palms",
+			"desc": "Add 1d10 strength to wound attempts when attacking with <strong>Fist & Tooth</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Analyze",
+			"desc": "At the <strong>start of the survivors turn</strong>, if you are adjacent to the monster, reveal the top Al card, then place it back on top of the deck."
 		},
 		{
 			"location": "Ability",
@@ -139,38 +164,141 @@
 		},
 		{
 			"location": "Ability",
-			"name": "Sour Death",
-			"desc": "When you are knocked down, you may Encourage yourself (even if you are Deaf). If you do, gain +1 Strength token."
+			"name": "Burnt Nerves",
+			"desc": "You are immune to <strong>bash</strong>."
 		},
 		{
 			"location": "Ability",
-			"name": "Ageless",
-			"desc": "You may hunt if you are retired. When you gain Hunt XP, you may decide not to gain it. (Saviors cannot use Ageless)."
+			"name": "Caratosis",
+			"desc": "Your attack may gain X <strong>automatic hits</strong>. X cannot be more than your total <div class='affinity -red'></div>.<br><br>When the attack ends, gain +X <strong>hunt XP</strong>.<br><br>When you trigger Age 2, gain the <strong>Beast of Caratosis</strong> secret fighting art.",
+			"size": "-medium"
 		},
 		{
 			"location": "Ability",
-			"name": "Peerless",
-			"desc": "When you gain Insanity, you may gain an equal amount of Survival."
+			"name": "Crystal Skin",
+			"desc": "You ignore <strong>cursed</strong> and cannot wear armor.<br><br>When you <strong>depart</strong> gain 3 to all hit locations.<br><br>Suffer -2 to the result of all <strong>severe injury</strong> rolls.<br><br>When you participate In <strong>intimacy</strong>, newborns gain <strong>Crystal Skin</strong> in addtion to any other roll results.",
+			"size": "-small"
+		},
+		{
+			"location": "Ability",
+			"name": "Dormenatus",
+			"desc": "When you suffer damage, you may gain X <strong>armor points</strong> to each hit location. X cannot be more than your total <div class='affinity -green'></div>.<br><br>After the damage is resolved, gain +X <strong>hunt XP</strong>.",
+			"size": "-medium"
+		},
+		{
+			"location": "Ability",
+			"name": "Explore",
+			"desc": "When you roll on an <strong>investigate</strong> table, add +2 to your roll result."
+		},
+		{
+			"location": "Ability",
+			"name": "Fated Battle",
+			"desc": "At the <strong>start of a showdown</strong> with the picked monster, gain +1 <strong>speed token</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Homing Instinct",
+			"desc": "Add +5 to your rolls on the <strong>Run Away</strong> story event."
+		},
+		{
+			"location": "Ability",
+			"name": "Iron Will",
+			"desc": "You cannot be <strong>knocked down</strong>.<br><br>Reduce all <strong>knockback</strong> you suffer to <strong>knockback 1</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Legendcaller",
+			"desc": "Once per lifetime, when on a <strong>hunt board</strong> space, after the <strong>Overwhelming Darkness</strong> space:<br><br>In place of rolling a random hunt event, use <strong>53</strong> as your result."
 		},
 		{
 			"location": "Ability",
 			"name": "Leyline Walker",
-			"desc": "While there is no armor or accessory gear in your gear grid, gain +3 evasion."
+			"desc": "While there is no <strong>armor</strong> or <strong>accessory</strong> gear in your gear grid, gain +3 <strong>evasion</strong>."
 		},
 		{
 			"location": "Ability",
-			"name": "Story of the Forsaken",
-			"desc": "You cannot be knocked down during a showdown with a nemesis monster."
+			"name": "Lucernae",
+			"desc": "<strong>Wound attempts</strong> may gain X <strong>Luck</strong>. X cannot be more than your total <div class='affinity -blue'></div>.<br><br>When the attack ends, gain +X <strong>hunt XP</strong>."
 		},
 		{
 			"location": "Ability",
-			"name": "Story of the Young Hero",
-			"desc": "At the start of your act, you may recall the heroic sacrifice from the story and bite your wrist. Gain 2 bleeding tokens and +1 survival."
+			"name": "Mad Grade",
+			"desc": "Once per <strong>showdown</strong>, as a monster draws an AI, name a card.<br><br>If the AI card drawn is the named card, gain +1 <strong>evasion token</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Mad Oracle",
+			"desc": "Once per <strong>showdown</strong>, as a monster draws an AI, name a card.<br><br>If the AI card drawn is the named card, gain +1 <strong>evasion token</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Matchmaker",
+			"desc": "When you are a <strong>returning survivor</strong>, once per lantern year, you may spend an <strong>endeavor</strong> to roll on the <strong>Intimacy event</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Metal Maw",
+			"desc": "Your <strong>Fist & Tooth</strong> attacks gain <strong>Sharp</strong>:<br><br>Add 1d10 <strong>strength</strong> to each <strong>wound attempt</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Peerless",
+			"desc": "When you gain <strong>Insanity</strong>, you may gain an equal amount of <strong>Survival</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Possessed",
+			"desc": "You cannot use <strong>weapon specialization</strong>, <strong>weapon mastery</strong>, or <strong>fighting arts</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "Prepared",
+			"desc": "When rolling to determine a <strong>straggler</strong>, add your <strong>hunt XP</strong> to your roll result."
+		},
+		{
+			"location": "Ability",
+			"name": "Sour Death",
+			"desc": "When you are <strong>knocked down</strong>, you may Encourage yourself (even if you are Deaf). If you do, gain +1 Strength token."
+		},
+		{
+			"location": "Ability",
+			"name": "Stalwart",
+			"desc": "Ignore <strong>knocked down</strong> effects of <strong>brain trauma</strong>, <strong>disorders</strong>, and <strong>intimidation</strong> actions."
+		},
+		{
+			"location": "Ability",
+			"name": "Story of the Forsaker",
+			"desc": "You cannot be <strong>knocked down</strong> during a showdown with a <strong>Nemesis Monster</strong>."
 		},
 		{
 			"location": "Ability",
 			"name": "Story of the Goblin",
-			"desc": "Once per showdown you may speak it out loud and roll 1d10. On a 3+, gain the Priority Target token, and the monster gains +1 Damage token."
+			"desc": "Once per <strong>showdown</strong>, you may roll 1d10. On a 3+, gain the <strong>priority target</strong> token and the monster gains +1 damage token."
+		},
+		{
+			"location": "Ability",
+			"name": "Story of the Young Hero",
+			"desc": "At the start of each of your <strong>acts</strong>, you may choose to gain 1 <strong>survival</strong> and 2 <strong>bleeding</strong> tokens."
+		},
+		{
+			"location": "Ability",
+			"name": "Sweet Battle",
+			"desc": "Once per round, you may <strong>surge</strong> without spending <strong>survival</strong>, but it must be used to activate a weapon."
+		},
+		{
+			"location": "Ability",
+			"name": "Thundercaller",
+			"desc": "Once per lifetime, when on a <strong>hunt board</strong> space, after the <strong>Overwhelming Darkness</strong> space:<br><br>In place of rolling a random hunt event, use <strong>100</strong> as your result."
+		},
+		{
+			"location": "Ability",
+			"name": "Tinker",
+			"desc": "When you are a <strong>returning survivor</strong>, gain +1 <strong>endeavor</strong> to use this <strong>settlement phase</strong>."
+		},
+		{
+			"location": "Ability",
+			"name": "&nbsp;",
+			"desc": ""
 		}
 	]
 }
