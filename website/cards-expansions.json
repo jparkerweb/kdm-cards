@@ -440,5 +440,13 @@
 			"name": "Black Guard Style",
 			"size": "-small"
 		}
+	],
+	"abilities":[
+		{
+			"desc": "During the <strong>Aftermath</strong>, if you gain <strong>weapon XP</strong>, gain +3 additional <strong>weapon XP</strong> and 1 <strong>iron strange</strong> resource as you cough up a hunk of your own solidified blood.",
+			"expansion":"",
+			"name": "Heart of the Storm",
+			"type": "Ability"
+		}
 	]
 }
