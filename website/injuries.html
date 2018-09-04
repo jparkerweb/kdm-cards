@@ -14,7 +14,7 @@
 			<div class="card__text">
 				<div class="text__content" :class="injury.size ? injury.size : ''" v-html="injury.desc"></div>
 			</div>
-			<div class="card__expansion">{{ injury.location }}</div>
+			<div class="card__type">{{ injury.type }}</div>
 		</div>
 		
 		<div class="card -abilities" v-for="ability in cards.abilities">
@@ -22,7 +22,8 @@
 			<div class="card__text" :class="ability.size ? ability.size : ''">
 				<div class="text__content" :class="ability.size ? ability.size : ''" v-html="ability.desc"></div>
 			</div>
-			<div class="card__expansion">{{ ability.location }}</div>
+			<div class="card__expansion">{{ ability.expansion }}</div>
+			<div class="card__type">{{ ability.type }}</div>
 		</div>
 	</div>
 	

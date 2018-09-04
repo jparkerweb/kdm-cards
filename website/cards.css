@@ -83,12 +83,23 @@
 	background: #1f7d47;
 	color: #FFF;
 }
-.card .card__title {
+
+
+
+/* .card .card__title {
 	padding: 1.578em 1.0528em .526em;
 	background: lightblue;
 	text-align: center;
 	font-weight: 600;
+} */
+.card .card__title {
+	padding: .562em 1.0528em 1.578em;
+	background: lightblue;
+	text-align: center;
+	font-weight: 600;
 }
+
+
 .card .card__text {
 	padding: 0.5em 2em 1.7em;
 	-webkit-box-flex: 1;
@@ -134,7 +145,15 @@
 	text-align: center;
 	font-style: italic;
 }
-
+.card .card__type {
+	position: absolute;
+	top: 3.3em;
+	font-size: 0.56em;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-style: italic;
+}
 .card .card__text table.-nowrap-first-column td:first-of-type {
 	white-space: nowrap;
 	padding-right: 20px;
