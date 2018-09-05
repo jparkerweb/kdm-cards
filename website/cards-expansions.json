@@ -440,5 +440,91 @@
 			"name": "Black Guard Style",
 			"size": "-small"
 		}
+	],
+	"abilities":[
+		{
+			"desc": "During the <strong>Aftermath</strong>, if you gain <strong>weapon XP</strong>, gain +3 additional <strong>weapon XP</strong> and 1 <strong>iron strange</strong> resource as you cough up a hunk of your own solidified blood.",
+			"expansion":"",
+			"name": "Heart of the Storm",
+			"type": "Ability"
+		},
+		{
+			"desc": "For each different color <strong>affinity</strong> on your gear grid, gain 1 <strong>armor</strong> to all hit locations.",
+			"expansion":"",
+			"name": "Iridescent Hide",
+			"type": "Ability"
+		},
+		{
+			"desc": "Once per <strong>settlement phase</strong> you may spend 2 <strong>endeavors</strong> to carve a prosthetic limb for a survivor.  If you do, that survivor removes one <strong>\"dismembered\" injury</strong> and adds 1 <strong>bone resource</strong> to the settlement storage.",
+			"expansion":"",
+			"name": "Limb-maker",
+			"type": "Ability",
+			"size": "-medium"
+		},
+		{
+			"desc": "<br>Gain <div class='affinity -all'></div> permanent affinity.<br><br>For each <div class='affinity -red'></div> <div class='affinity -green'></div> <div class='affinity -blue'></div> you have, once per round, during your turn, <strong>before you roll a die</strong>, you may <strong>choose</strong> the result of that die instead.<br><br>In the <strong>Aftermath</strong>, gain <strong>+3 additional Hunt XP</strong>.<br><br>You cannot put \"<strong>other</strong>\" gear in your gear grid.<br><br>Gain a <strong>permanent +1 speed</strong> with each <strong>Age</strong> milestone.<br><br>When you <strong>retire</strong>, your body disappears in a flash of prismatic light as you cease to exist.",
+			"expansion":"",
+			"name": "Nebulae",
+			"type": "Ability",
+			"size":"-xsmall"
+		},
+		{
+			"desc": "At the start of the <strong>showdown</strong> you may look through the <strong>AI deck</strong>, then shuffle it and return it.",
+			"expansion":"",
+			"name": "Oracle's Eye",
+			"type": "Ability"
+		},
+		{
+			"desc": "When you gain this ability, <strong>name a survivor</strong>.  The named survivor is your <strong>partner</strong>.<br><br>When you <strong>depart</strong>, if your partner also departs, gain <strong>+2 survival</strong>.<br><br>During the <strong>showdown phase</strong>, if you are <strong>adjacent</strong> to your partner, gain <strong>+1 strength</strong>.<br><br>You may only participate in the <strong>Intimacy</strong> story event if your partner is <strong>also nominated</strong> for it.<br><br>When your partner <strong>dies</strong>, gain a <strong>random disorder</strong> and <strong>remove this ability</strong>.",
+			"expansion":"",
+			"name": "Partner",
+			"type": "Ability",
+			"size":"-xsmall"
+		},
+		{
+			"desc": "Before drawing hit locations, you may <strong>name a hit location</strong>.  If you draw any hit locations with that name during your attack, gain <strong>+3 insanity</strong> and <strong>+10 strength</strong> when attempting to wound that location.",
+			"expansion":"",
+			"name": "Presage",
+			"type": "Ability",
+			"size":"-medium"
+		},
+		{
+			"desc": "When you would suffer a \"<strong>Dismembered</strong>\" severe injury, ignore it and gain <strong>+1 bleeding token</strong> instead",
+			"expansion":"",
+			"name": "Pristine",
+			"type": "Ability"
+		},
+		{
+			"desc": "<br>Once per showdown, you may consume a <strong>disorder</strong> from an adjacen survivor.<br><br>If you do, that survivor removes that <strong>disorder</strong> and gains <strong>+1 bleeding token</strong>.  You also gaina permanent <strong>+1 strength</strong>.<br><br>During the <strong>Aftermath</strong>, if you did not consume a disorder in this way, you <strong>die</strong>.",
+			"expansion":"",
+			"name": "Psychovore",
+			"type": "Ability",
+			"size":"-medium"
+		},
+		{
+			"desc": "If you are standing at the start of your turn, reveal the top <strong>2 AI cards</strong>, then return them in any order to the top of the monster's <strong>AI deck</strong>.",
+			"expansion":"",
+			"name": "Rooted to All",
+			"type": "Ability"
+		},
+		{
+			"desc": "You may spend <strong>1 activation</strong> to freely exchange <strong>tokens</strong> with adjacent survivors who also have <strong>Super Hair</strong>.",
+			"expansion":"",
+			"name": "Super Hair",
+			"type": "Ability"
+		},
+		{
+			"desc": "You cannot carry <strong>two-handed</strong> gear.<br><br>Any time you <strong>roll to attack</strong>, on a <strong>perfect hit</strong>, gain <strong>+5 insanity</strong> and <strong>+1 luck</strong> on that attack.<br><br>Any time you <strong>roll to attack</strong>, on a natural 1, suffer <strong>5 brain damage</strong> and <strong>-1 luck</strong> on that attack.",
+			"expansion":"",
+			"name": "Twelve Fingers",
+			"type": "Ability",
+			"size":"-medium"
+		},
+		{
+			"desc": "You gain <strong>+1 evasion</strong> for each <strong>bleeding token</strong> you have.",
+			"expansion":"",
+			"name": "Way of the Rust",
+			"type": "Ability"
+		}
 	]
 }
