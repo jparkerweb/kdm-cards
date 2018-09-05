@@ -462,11 +462,11 @@
 			"size": "-medium"
 		},
 		{
-			"desc": "<br>Gain <div class='affinity -all'></div> permanent affinity.<br><br>For each <div class='affinity -red'></div> <div class='affinity -green'></div> <div class='affinity -blue'></div> you have, once per round, during your turn, <strong>before you roll a die</strong>, you may <strong>choose</strong> the result of that die instead.<br><br>In the <strong>Aftermath</strong>, gain <strong>+3 additional Hunt XP</strong>.<br><br>You cannot put \"<strong>other</strong>\" gear in your gear grid.<br><br>Gain a <strong>permanent +1 speed</strong> with each <strong>Age</strong> milestone.<br><br>When you <strong>retire</strong>, your body disappears in a flash of prismatic light as you cease to exist.",
+			"desc": "<br>Gain <div class='affinity -all'></div> permanent affinity.<br><br>For each <div class='affinity -red'></div> <div class='affinity -green'></div> <div class='affinity -blue'></div>, once per round, during your turn, <strong>before you roll a die</strong>, you may <strong>choose</strong> the result of that die.<br><br>In <strong>Aftermath</strong>, gain <strong>+3 additional Hunt XP</strong>.<br><br>You cannot put \"<strong>other</strong>\" gear in your grid.<br><br>Gain a <strong>permanent +1 speed</strong> with each <strong>Age</strong> milestone.<br><br>When you <strong>retire</strong>, you cease to exist.",
 			"expansion":"",
 			"name": "Nebulae",
 			"type": "Ability",
-			"size":"-xxsmall"
+			"size":"-small"
 		},
 		{
 			"desc": "At the start of the <strong>showdown</strong> you may look through the <font class='kdm_font'>b</font> <strong> deck</strong>, then shuffle it and return it.",
@@ -479,7 +479,7 @@
 			"expansion":"",
 			"name": "Partner",
 			"type": "Ability",
-			"size":"-xxsmall"
+			"size":"-xsmall"
 		},
 		{
 			"desc": "Before drawing hit locations, you may <strong>name a hit location</strong>.  If you draw any hit locations with that name during your attack, gain <strong>+3 insanity</strong> and <strong>+10 strength</strong> when attempting to wound that location.",
@@ -495,11 +495,11 @@
 			"type": "Ability"
 		},
 		{
-			"desc": "<br>Once per showdown, you may consume a <strong>disorder</strong> from an adjacen survivor.<br><br>If you do, that survivor removes that <strong>disorder</strong> and gains <strong>+1 bleeding token</strong>.  You also gain a permanent <strong>+1 strength</strong>.<br><br>During the <strong>Aftermath</strong>, if you did not consume a disorder in this way, you <strong>die</strong>.",
+			"desc": "Once per showdown, you may consume a <strong>disorder</strong> from an adjacen survivor.<br><br>If you do, that survivor removes that <strong>disorder</strong> and gains <strong>+1 bleeding token</strong>.  You also gain a permanent <strong>+1 strength</strong>.<br><br>During the <strong>Aftermath</strong>, if you did not consume a disorder in this way, you <strong>die</strong>.",
 			"expansion":"",
 			"name": "Psychovore",
 			"type": "Ability",
-			"size":"-small"
+			"size":"-medium"
 		},
 		{
 			"desc": "If you are standing at the start of your turn, reveal the top <strong>2</strong> <font class='kdm_font'>b</font>, then return them in any order to the top of the monster's <font class='kdm_font'>b</font> <strong>deck</strong>.",
