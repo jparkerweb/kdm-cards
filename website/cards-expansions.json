@@ -475,7 +475,7 @@
 			"type": "Ability"
 		},
 		{
-			"desc": "When you gain this ability, <strong>name a survivor</strong>.  The named survivor is your <strong>partner</strong>.<br><br>When you <strong>depart</strong>, if your partner also departs, gain <strong>+2 survival</strong>.<br><br>During the <strong>showdown phase</strong>, if you are <strong>adjacent</strong> to your partner, gain <strong>+1 strength</strong>.<br><br>You may only participate in the <strong>Intimacy</strong> story event if your partner is <strong>also nominated</strong> for it.<br><br>When your partner <strong>dies</strong>, gain a <strong>random disorder</strong> and <strong>remove this ability</strong>.",
+			"desc": "<br>When you gain this ability, <strong>name a survivor</strong>.  The named survivor is your <strong>partner</strong>.<br><br>When you <strong>depart</strong>, if your partner also departs, gain <strong>+2 survival</strong>.<br><br>During the <strong>showdown phase</strong>, if you are <strong>adjacent</strong> to your partner, gain <strong>+1 strength</strong>.<br><br>You may only participate in the <strong>Intimacy</strong> story event if your partner is <strong>also nominated</strong> for it.<br><br>When your partner <strong>dies</strong>, gain a <strong>random disorder</strong> and <strong>remove this ability</strong>.",
 			"expansion":"",
 			"name": "Partner",
 			"type": "Ability",
