@@ -455,7 +455,7 @@
 			"type": "Ability"
 		},
 		{
-			"desc": "Once per <strong>settlement phase</strong> you may spend 2 <strong>endeavors</strong> to carve a prosthetic limb for a survivor.  If you do, that survivor removes one <strong>\"dismembered\" injury</strong> and adds 1 <strong>bone resource</strong> to the settlement storage.",
+			"desc": "Once per <strong>settlement phase</strong> you may spend <font class='kdm_font'>d</font> <font class='kdm_font'>d</font> to carve a prosthetic limb for a survivor.  If you do, that survivor removes one <strong>\"dismembered\" injury</strong> and adds 1 <strong>bone resource</strong> to the settlement storage.",
 			"expansion":"",
 			"name": "Limb-maker",
 			"type": "Ability",
@@ -466,20 +466,20 @@
 			"expansion":"",
 			"name": "Nebulae",
 			"type": "Ability",
-			"size":"-xsmall"
+			"size":"-xxsmall"
 		},
 		{
-			"desc": "At the start of the <strong>showdown</strong> you may look through the <strong>AI deck</strong>, then shuffle it and return it.",
+			"desc": "At the start of the <strong>showdown</strong> you may look through the <font class='kdm_font'>b</font> <strong> deck</strong>, then shuffle it and return it.",
 			"expansion":"",
 			"name": "Oracle's Eye",
 			"type": "Ability"
 		},
 		{
-			"desc": "<br>When you gain this ability, <strong>name a survivor</strong>.  The named survivor is your <strong>partner</strong>.<br><br>When you <strong>depart</strong>, if your partner also departs, gain <strong>+2 survival</strong>.<br><br>During the <strong>showdown phase</strong>, if you are <strong>adjacent</strong> to your partner, gain <strong>+1 strength</strong>.<br><br>You may only participate in the <strong>Intimacy</strong> story event if your partner is <strong>also nominated</strong> for it.<br><br>When your partner <strong>dies</strong>, gain a <strong>random disorder</strong> and <strong>remove this ability</strong>.",
+			"desc": "<br>When you gain this ability, <strong>name a survivor</strong>.  The named survivor is your <strong>partner</strong>.<br><br>When you <strong>depart</strong>, if your partner also departs, gain <strong>+2 survival</strong>.<br><br>During the <strong>showdown phase</strong>, if you are <strong>adjacent</strong> to your partner, gain <strong>+1 strength</strong>.<br><br>You may only participate in <font class='kdm_font'>g</font> <strong>Intimacy</strong> if your partner is <strong>also nominated</strong> for it.<br><br>When your partner <strong>dies</strong>, gain a <strong>random disorder</strong> and <strong>remove this ability</strong>.",
 			"expansion":"",
 			"name": "Partner",
 			"type": "Ability",
-			"size":"-xsmall"
+			"size":"-xxsmall"
 		},
 		{
 			"desc": "Before drawing hit locations, you may <strong>name a hit location</strong>.  If you draw any hit locations with that name during your attack, gain <strong>+3 insanity</strong> and <strong>+10 strength</strong> when attempting to wound that location.",
@@ -495,20 +495,20 @@
 			"type": "Ability"
 		},
 		{
-			"desc": "<br>Once per showdown, you may consume a <strong>disorder</strong> from an adjacen survivor.<br><br>If you do, that survivor removes that <strong>disorder</strong> and gains <strong>+1 bleeding token</strong>.  You also gaina permanent <strong>+1 strength</strong>.<br><br>During the <strong>Aftermath</strong>, if you did not consume a disorder in this way, you <strong>die</strong>.",
+			"desc": "<br>Once per showdown, you may consume a <strong>disorder</strong> from an adjacen survivor.<br><br>If you do, that survivor removes that <strong>disorder</strong> and gains <strong>+1 bleeding token</strong>.  You also gain a permanent <strong>+1 strength</strong>.<br><br>During the <strong>Aftermath</strong>, if you did not consume a disorder in this way, you <strong>die</strong>.",
 			"expansion":"",
 			"name": "Psychovore",
 			"type": "Ability",
-			"size":"-medium"
+			"size":"-small"
 		},
 		{
-			"desc": "If you are standing at the start of your turn, reveal the top <strong>2 AI cards</strong>, then return them in any order to the top of the monster's <strong>AI deck</strong>.",
+			"desc": "If you are standing at the start of your turn, reveal the top <strong>2</strong> <font class='kdm_font'>b</font>, then return them in any order to the top of the monster's <font class='kdm_font'>b</font> <strong>deck</strong>.",
 			"expansion":"",
 			"name": "Rooted to All",
 			"type": "Ability"
 		},
 		{
-			"desc": "You may spend <strong>1 activation</strong> to freely exchange <strong>tokens</strong> with adjacent survivors who also have <strong>Super Hair</strong>.",
+			"desc": "You may spend <font class='kdm_font'>a</font> to freely exchange <strong>tokens</strong> with adjacent survivors who also have <strong>Super Hair</strong>.",
 			"expansion":"",
 			"name": "Super Hair",
 			"type": "Ability"

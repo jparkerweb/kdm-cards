@@ -155,7 +155,7 @@
 		{
 			"type": "Ability",
 			"name": "Analyze",
-			"desc": "At the <strong>start of the survivors turn</strong>, if you are adjacent to the monster, reveal the top Al card, then place it back on top of the deck."
+			"desc": "At the <strong>start of the survivors turn</strong>, if you are adjacent to the monster, reveal the top <font class='kdm_font'>b</font>, then place it back on top of the deck."
 		},
 		{
 			"type": "Ability",
@@ -223,17 +223,17 @@
 		{
 			"type": "Ability",
 			"name": "Mad Grade",
-			"desc": "Once per <strong>showdown</strong>, as a monster draws an AI, name a card.<br><br>If the AI card drawn is the named card, gain +1 <strong>evasion token</strong>."
+			"desc": "Once per <strong>showdown</strong>, as a monster draws an <font class='kdm_font'>b</font>, name a card.<br><br>If the <font class='kdm_font'>b</font> drawn is the named card, gain +1 <strong>evasion token</strong>."
 		},
 		{
 			"type": "Ability",
 			"name": "Mad Oracle",
-			"desc": "Once per <strong>showdown</strong>, as a monster draws an AI, name a card.<br><br>If the AI card drawn is the named card, gain +1 <strong>evasion token</strong>."
+			"desc": "Once per <strong>showdown</strong>, as a monster draws an <font class='kdm_font'>b</font>, name a card.<br><br>If the <font class='kdm_font'>b</font> drawn is the named card, gain +1 <strong>evasion token</strong>."
 		},
 		{
 			"type": "Ability",
 			"name": "Matchmaker",
-			"desc": "When you are a <strong>returning survivor</strong>, once per lantern year, you may spend an <strong>endeavor</strong> to roll on the <strong>Intimacy event</strong>."
+			"desc": "When you are a <strong>returning survivor</strong>, once per lantern year, you may spend <font class='kdm_font'>d</font> to roll on the <strong>Intimacy event</strong>."
 		},
 		{
 			"type": "Ability",
@@ -258,7 +258,7 @@
 		{
 			"type": "Ability",
 			"name": "Sour Death",
-			"desc": "When you are <strong>knocked down</strong>, you may Encourage yourself (even if you are Deaf). If you do, gain +1 Strength token."
+			"desc": "When you are <strong>knocked down</strong>, you may <strong>encourage</strong> yourself (even if you are Deaf). If you do, gain <strong>+1 Strength</strong> token."
 		},
 		{
 			"type": "Ability",
@@ -273,7 +273,7 @@
 		{
 			"type": "Ability",
 			"name": "Story of the Goblin",
-			"desc": "Once per <strong>showdown</strong>, you may roll 1d10. On a 3+, gain the <strong>priority target</strong> token and the monster gains +1 damage token."
+			"desc": "Once per <strong>showdown</strong>, you may roll 1d10. On a 3+, gain the <strong>priority target</strong> token and the monster gains <strong>+1 damage</strong> token."
 		},
 		{
 			"type": "Ability",
@@ -293,7 +293,7 @@
 		{
 			"type": "Ability",
 			"name": "Tinker",
-			"desc": "When you are a <strong>returning survivor</strong>, gain +1 <strong>endeavor</strong> to use this <strong>settlement phase</strong>."
+			"desc": "When you are a <strong>returning survivor</strong>, gain <strong>+1</strong> <font class='kdm_font'>d</font> to use this <strong>settlement phase</strong>."
 		},
 		{
 			"type": "Ability",
