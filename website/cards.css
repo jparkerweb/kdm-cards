@@ -173,18 +173,24 @@
 	display: inline-block;
 	width: .7em;
 	height: .7em;
-	border-radius: 5px; 
+	/* border-radius: 5px;  */
+	border-radius: .12em; 
 }
 .affinity::after {
 	content:"";
 	position: absolute;
     display: block;
-	width: 82%;
-	height: 82%;
-	border: 2px solid #D8D8D8;
-	top: 9%;
-	left: 9%;
+	/* width: 82%;
+	height: 82%; */
+	width: .55em;
+	height: .55em;
+	border: .05em solid #D8D8D8;
+	/* top: 9%;
+	left: 9%; */
+	top: .075em;
+	left: .075em;
 	box-sizing: border-box;
+	  
 } 
 
 .affinity.-red {
