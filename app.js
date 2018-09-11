@@ -3,10 +3,7 @@ const path = require('path')
 const fs = require('fs-extra')
 
 var directory = "generated-cards"
-var url = "http://localhost:8000/cards.html"
-// var url = "http://localhost:8000/cards-expansions.html"
-// var url = "http://localhost:8000/injuries.html"
-
+var url = "http://localhost:8000/index.html"
 
 // creats screen shots directory if is doesn't already exist
 if (!fs.existsSync("./" + directory)){

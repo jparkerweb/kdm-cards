@@ -161,21 +161,21 @@
 .affinity {
 		position: relative;
 		display: inline-block;
-		width: .7em;
-		height: .7em;
-		border-radius: .12em; 
+		width: 0.9em;
+		height: 0.9em;
+		border-radius: .09em;
 	}
 
 	.affinity::after {
-		content:"";
+		content: "";
 		position: absolute;
 		display: block;
-		width: .55em;
-		height: .55em;
+		width: 0.73em;
+		height: 0.7em;
 		border: .05em solid #D8D8D8;
-		top: .075em;
-		left: .075em;
-		box-sizing: border-box;	
+		top: .08em;
+		left: .08em;
+		box-sizing: border-box;
 	}
 /*}*/
 
@@ -192,13 +192,5 @@
 }
 
 .affinity.-all {
-	background-image: linear-gradient(
-		135deg, 
-		red, 
-		red 33%, 
-		green 33%, 
-		green 66%, 
-		blue 66%, 
-		blue
-	);
+	background-image: linear-gradient( 135deg, red, red 37%, green 22%, green 50%, blue 66%, blue );
 }

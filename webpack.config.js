@@ -1,18 +1,17 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
+	mode: "development",
 	entry: {
-		cards: './cards.js',
-		cardsExpansions: './cards-expansions.js',
-		injuries: './injuries.js'
+		cards: "./cards.js"
 	},
 	output: {
-		path: path.resolve(__dirname, 'website'),
-		filename: '[name].js'
+		path: path.resolve(__dirname, "website"),
+		filename: "[name].js"
 	},
 	resolve: {
 		alias: {
-			vue: 'vue/dist/vue.js'
+			vue: "vue/dist/vue.js"
 		}
 	}
 };

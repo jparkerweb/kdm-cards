@@ -95,6 +95,169 @@
 		{
 			"name": ".",
 			"desc": ""
+		},
+		{
+			"expansion": "Gorm",
+			"flavor_text": "No one knows where your mind goes when you're gone, not even you.",
+			"name": "Absent Seizures",
+			"desc": "The first time you would suffer a brain trauma each showdown, you are instead knocked down and forget a fighting art (erase it)."
+		},
+		{
+			"expansion": "Gorm",
+			"flavor_text": "Even large, looming shadows make you jumpy.",
+			"name": "Megalophobia",
+			"desc": "You may not <b>depart</b> for hunts or showdowns with monsters that occupy more than 4 spaces on the showdown board."
+		},
+		{
+			"expansion": "Spidicules",
+			"flavor_text": "You are deeply afraid of being the monster controller.",
+			"name": "Controlophobia",
+			"desc": "While you are the monster controller, double any damage you suffer."
+		},
+		{
+			"expansion": "Spidicules",
+			"flavor_text": "When a fellow hunter perishes you lose control.",
+			"name": "Revenge",
+			"desc": "When a survivors dies during the showdown, suffer the <b>Frenzy</b> brain trauma."
+		},
+		{
+			"expansion": "Spidicules",
+			"flavor_text": "You are irrationally scared by tiny spiders and the things they produce.",
+			"name": "Tiny Arachnophobia",
+			"desc": "You cannot carry any gear with the amber keyword. You cannot gain any resources with the silk keyword."
+		},
+		{
+			"expansion": "Dragon King",
+			"flavor_text": "You love numbers. Your life must exist in perfect arithmetical harmony.",
+			"name": "Arithmophilia",
+			"desc": "When you gain this disorder, roll 1d5. Your movement is that number.<br/><br>Ignore all other movement modifiers."
+		},
+		{
+			"constellation": {"horizontal": "Gambler", "vertical": "Rust"},
+			"expansion": "Dragon King",
+			"flavor_text": "You have a grand destiny that you must fulfill.",
+			"name": "Destined",
+			"desc": "If you do not <b>depart</b>, lose all survival and insanity."
+		},
+		{
+			"expansion": "Dragon King",
+			"flavor_text": "You're not ready to love.",
+			"name": "Performance Anxiety",
+			"desc": "You cannot be nominated for <b>Intimacy</b>.<br/><br>Cure this disorder if you have 8+ courage."
+		},
+		{
+			"expansion": "Dragon King",
+			"flavor_text": "Evil magic will be your undoing. You do not believe in abusing the other.",
+			"name": "Superstitious",
+			"desc": "You cannot activate or <b>depart</b> with other gear in your gear grid."
+		},
+		{
+			"expansion": "Lion god",
+			"flavor_text": "Predators of all shapes and sizes find your scent irresistible.",
+			"name": "Delicious",
+			"desc": "You are still considered a threat when you are knocked down (unless you use an effect that says otherwise)."
+		},
+		{
+			"expansion": "Lion god",
+			"flavor_text": "You are delicate flower, wilting in the darkness.",
+			"name": "Enfeebled",
+			"desc": "It takes one less bleeding token to kill you."
+		},
+		{
+			"expansion": "Lion god",
+			"flavor_text": "Freedom awaits those pushed this far beyond the breaking point.",
+			"name": "Stark Raving",
+			"desc": "You are always <b>insane</b>, regardless of your insanity."
+		},
+		{
+			"expansion": "Lion god",
+			"flavor_text": "If you're not killing something, you're wasting your time.",
+			"name": "Tunnel Vision",
+			"desc": "When you spend <font class='kdm_font'>a</font>, you may only activate weapons."
+		},
+		{
+			"expansion": "Sunstalker",
+			"flavor_text": "You don't have any emotions. You've hidden this from everyone by mimicking their social interactions.",
+			"name": "Emotionless",
+			"desc": "You cannot gain +1 strength tokens."
+		},
+		{
+			"expansion": "Sunstalker",
+			"flavor_text": "You love the feeling of being needed.",
+			"name": "Overprotective",
+			"desc": "When an adjacent survivor is knocked down, you are also knocked down as you rush to their aid."
+		},
+		{
+			"expansion": "Sunstalker",
+			"flavor_text": "When your emotions rise, you can only think of violence.",
+			"name": "Sun-Drunk",
+			"desc": "When you have any +1 strength tokens, you cannot <b>dash</b>, <b>dodge</b> or <font class='kdm_font'>g</font> <b>Run Away</b>."
+		},
+		{
+			"expansion": "Flower Knight",
+			"flavor_text": "An insatiable hunger has bloomed in you, delicate and sickeningly sweet.",
+			"name": "Flower Addiction",
+			"desc": "You may only <b>depart</b> to hunt the Flower Knight.<br/><br>After you <b>depart</b>, cure this disorder."
+		},
+		{
+			"expansion": "Flower Knight",
+			"flavor_text": "You cannot experience fear if you do not exist.",
+			"name": "Ghostly Beauty",
+			"desc": "Double all insanity you gain.<br/><br>Double all survival you spend."
+		},
+		{
+			"expansion": "Flower Knight",
+			"flavor_text": "There is nothing in the world more beautiful than yourself.",
+			"name": "Narcissistic",
+			"desc": "You may not wear armor at the head location. If you are wearing armor at the head location when you gain this disorder, archive it."
+		},
+		{
+			"expansion": "Slenderman",
+			"flavor_text": "Your will to survive has become indefatigable",
+			"name": "Hyper-Sensitivity",
+			"desc": "You may <b>dodge</b> one additional time per round.<br/><br>Whenever you are hit by an attack, you must <b>dodge</b> at least once, if possible."
+		},
+		{
+			"expansion": "Slenderman",
+			"flavor_text": "The roads in your mind cross and reveal a strange new path.",
+			"name": "Spiral Ganglia",
+			"desc": "At the start of the showdown, gain the <b>Darkness Awareness</b> survivor status card."
+		},
+		{
+			"expansion": "Dung Beetle Knight",
+			"flavor_text": "Moving quickly makes you vomit.",
+			"name": "Motion Sickness",
+			"desc": "Whenever you suffer <b>knockback</b>, gain 1 bleeding token."
+		},
+		{
+			"expansion": "Dung Beetle Knight",
+			"flavor_text": "You love insects.",
+			"name": "Vermin Obsession",
+			"desc": "While there is a <b>Bug Spot</b> terrain tile on the showdown board, you are so overwhelmed that you are <b>doomed</b>."
+		},
+		{
+			"expansion": "Lion Knight",
+			"flavor_text": "The double-edged sword of fame is the only weapon you require.",
+			"name": "Prima Donna",
+			"desc": "Each survivor turn, you must take your act first (roll off each turn if multiple survivors have this disorder)."
+		},
+		{
+			"expansion": "Lion Knight",
+			"flavor_text": "Yelling makes you feel light-headed.",
+			"name": "Shallow Lungs",
+			"desc": "When you <b>encourage</b>, you are knocked down."
+		},
+		{
+			"expansion": "Lion Knight",
+			"flavor_text": "You hate being the center of attention.",
+			"name": "Stage Fright",
+			"desc": "Whenever you become <b>doomed</b> or gain the <b>priority target</b> token, lose 1 survival."
+		},
+		{
+			"expansion": "Lion Knight",
+			"flavor_text": "Your mother always said you were born under a bad sign.",
+			"name": "Unlucky",
+			"desc": "You cannot critically wound."
 		}
 	],
 	"fa": [
@@ -181,6 +344,167 @@
 		{
 			"name": ".",
 			"desc": ""
+		},
+		{
+			"desc": "When you are adjacent to the monster, you may spend <font class='kdm_font'>c</font> to place your survivor on any other space adjacent to the monster.",
+			"expansion": "Dragon King",
+			"name": "Acrobatics"
+		},
+		{
+			"constellation": {"horizontal": "Absolute","vertical": "Reaper"},
+			"desc": "Before making an attack, you may add your understanding to your accuracy attribute for that attack.<br/><br>Limit, once per showdown.",
+			"expansion": "Dragon King",
+			"name": "Champion's Rite"
+		},
+		{
+			"constellation": {"horizontal": "Gambler", "vertical": "Storm"},
+			"desc": "Once per showdown, you may give your next wound attempt +2 strength and <b>Devastating 1</b>.",
+			"expansion": "Dragon King",
+			"name": "Fated Blow"
+		},
+		{
+			"constellation": {"horizontal": "Goblin", "vertical": "Rust"},
+			"desc": "Once per lantern year, you may ignore one of your severe injury roll results. If you do, gain a random disorder.",
+			"expansion": "Dragon King",
+			"name": "Unbreakable"
+		},
+		{
+			"desc": "At the start of the showdown, gain the <b>Steadfast</b> survivor status card.<br/><br> When you are attacked, if you have 2+ steadfast tokens, ignore a hit and remove all your steadfast tokens.",
+			"expansion": "Dung Beetle Knight",
+			"name": "Carapace of Will",
+			"size": "-medium"
+		},
+		{
+			"desc": "At the start of a showdown, gain the <b>Momentum</b> survivor status card.<br/><br> When you attack, if you have 5+ momentum tokens, remove them all and roll 1d10. Gain that amount of luck and strength when attempting to wound the first selected hit location for this attack.",
+			"expansion": "Dung Beetle Knight",
+			"name": "Propulsion Drive",
+			"size": "-small"
+		},
+		{
+			"desc": "During the Hunt and Settlement phase, whenever you roll on a table, you may add +1 to the roll result. This may not exceed the highest possible result of that table.<br/><br>(This includes Hunt Events, Story Events, Endeavors, Settlement Events, etc.)",
+			"expansion": "Flower Knight",
+			"name": "Otherworldly Luck",
+			"size": "-small"
+		},
+		{
+			"desc": "Once per showdown, you may spend <font class='kdm_font'>a</font> to give yourself a seizure. You suffer a random brain trauma and are knocked down.",
+			"expansion": "Gorm",
+			"name": "Lure Epilepsy"
+		},
+		{
+			"desc": "Gain +1 strength when attacking from adjacent spaces outside the monster's facing and blind spot.",
+			"expansion": "Gorm",
+			"name": "Mammoth Hunting"
+		},
+		{
+			"desc": "If you have 0 survival at the start of your act, gain 1 survival.",
+			"expansion": "Lion god",
+			"name": "Burning Focus"
+		},
+		{
+			"desc": "Once per showdown, if you are standing adjacent to the monster and have 3+ survival, you may spend all of your survival for one automatic hit that inflicts a critical wound.",
+			"expansion": "Lion god",
+			"name": "Heroic",
+			"size": "-medium"
+		},
+		{
+			"desc": "Whenever a survivor dies during the showdown, roll 1d10. On a 7+, gain a <b>Skull</b> basic resource.",
+			"expansion": "Lion god",
+			"name": "Ruthless"
+		},
+		{
+			"desc": "If all of your attack rolls in an attack miss, you may spend 1 survival to re-roll all attack rolls.",
+			"expansion": "Lion god",
+			"name": "Unrelenting"
+		},
+		{
+			"desc": "When you become <b>doomed</b> or gain the <b>priority target</b> token, you may choose to gain +1 survival or +1 strength token.",
+			"expansion": "Lion Knight",
+			"name": "Headliner"
+		},
+		{
+			"desc": "When your wound attempt on a hit location is a failure, you may put that hit location back on top of the deck instead of in the discard pile.<br/><br>Limit, once per round.",
+			"expansion": "Lion Knight",
+			"name": "Tenacious",
+			"size": "-medium"
+		},
+		{
+			"desc": "When you suffer a severe injury at a hit location, you may archive a gear worn at that location to ignore it and gain +1 survival.",
+			"expansion": "Lion Knight",
+			"name": "Wardrobe Expert"
+		},
+		{
+			"desc": "The first time you wound the monster each attack, gain +1 survival and +1 insanity.<br/><br>Ignore the effects of the <b>Fear of the Dark</b> and <b>Prey</b> disorders.",
+			"expansion": "Manhunter",
+			"name": "Abyssal Sadist",
+			"size": "-medium"
+		},
+		{
+			"desc": "Whenever a random hunt event result is:<br/><br>11, 22, 33, 44, 55, 66, 77, 88, 99 or 100,<br/><br>the event revealer gains +1 understanding and +1 courage.",
+			"expansion": "Manhunter",
+			"name": "Seasoned Hunter",
+			"size": "-medium"
+		},
+		{
+			"desc": "The hunting party may start the hunt phase 1 space closer to the monster.<br/><br>At the start of the showdown, all survivors gain +1 survival and up to +1 insanity.",
+			"expansion": "Manhunter",
+			"name": "Trailblazer",
+			"size": "-medium"
+		},
+		{
+			"desc": "When you gain a bleeding token, gain +1 survival and +1 insanity.<br/><br>Ignore the effects of the <b>Aichmophobia</b> and <b>Apathetic</b> disorders.",
+			"expansion": "Manhunter",
+			"name": "Transcended Masochist",
+			"size": "-medium"
+		},
+		{
+			"desc": "When you suffer a brain trauma, gain a bleeding token.",
+			"expansion": "Slenderman",
+			"name": "Blotted Out"
+		},
+		{
+			"desc": "The first time you gain a resource during a showdown, you may feed it to your phantom friend. If you do, archive the resources and gain +1 evasion token.<br/><br>Lose this token if you are <b>deaf</b> or become <b>deaf</b> during the showdown.",
+			"expansion": "Slenderman",
+			"name": "Phantom Friend",
+			"size": "-small"
+		},
+		{
+			"desc": "Gain +3 movement. Whenever you are knocked down, gain -1 movement token.<br/><br>If you have the <b>Tiny Arachnophobia</b> disorder, you are too scared of spiders to imitate them and you cannot use this fighting art.",
+			"expansion": "Spidicules",
+			"name": "Harvestman",
+			"size": "-medium"
+		},
+		{
+			"desc": "When a survivor dies during the showdown, gain +4 survival and +1 strength token.",
+			"expansion": "Spidicules",
+			"name": "Vengeance"
+		},
+		{
+			"desc": "When you are instructed to <b>Skip the Next Hunt</b>, ignore it. The 'Skip Next Hunt' box on your survivor record sheet cannot be filled in.",
+			"expansion": "Sunstalker",
+			"name": "Burning Ambition"
+		},
+		{
+			"desc": "When a survivor adjacent to you is knocked down, you may spend 1 survival. If you do, they stand and gain +1 survival from your words of encouragement.<br/><br>You cannot use this if you have a <b>broken jaw</b>.",
+			"expansion": "Sunstalker",
+			"name": "Defender",
+			"size": "-medium"
+		},
+		{
+			"desc": "Your comrades make you strong enough to exceed the limits of death itself.<br/><br>During the showdown, if you would gain a lethal number of bleeding tokens while there are any other standing survivors, roll 1d10. On a 6+, you live but are knocked down. You will not bleed to death until you gain another bleeding token.",
+			"expansion": "Sunstalker",
+			"name": "Purpose",
+			"size": "-small"
+		},
+		{
+			"desc": "When you attack a monster from its blind spot, gain +4 strength for that attack.",
+			"expansion": "Sunstalker",
+			"name": "Sneak Attack"
+		},
+		{
+			"desc": "Once per showdown, when you wound a monster from its blind spot, a survivor adjacent to you may gain the <b>priority target</b> token.",
+			"expansion": "Sunstalker",
+			"name": "Trick Attack"
 		}
 	],
 	"sfa": [
@@ -242,6 +566,504 @@
 		{
 			"name": ".",
 			"desc": ""
+		},
+		{
+			"desc": "Once per showdown, you may spend <font class='kdm_font'>a</font> to shove an adjacent obstacle terrain. If you do, move the train directly away from you in a straight line until it encounters a board edge or another obstacle terrain. Any monsters the train passes over suffer a wound, and any survivors it <b>collides</b> with suffer <b>knockback 7</b>.<br/><br>The display of strength is so exhausting it ages you. You are knocked down and gain +1 Hunt XP.",
+			"expansion": "Dung Beetle Knight",
+			"name": "Beetle Strength",
+			"size": "-small"
+		},
+		{
+			"desc": "If you would gain a negative attribute token, gain a positive attribute token of that type instead.",
+			"expansion": "Dragon King",
+			"name": "Altered Destiny"
+		},
+		{
+			"constellation": {"horizontal": "Absolute", "vertical": "Rust"},
+			"desc": "Once per round, you may spend 1 survival to freeze a monster's brain. They gain -2 accuracy until the end of the round.<br/><br>Once per round, you may spend 1 survival to freeze a survivor's brain, killing them instantly. They die.",
+			"expansion": "Dragon King",
+			"name": "Frozen Star",
+			"size": "-medium"
+		},
+		{
+			"desc": "You may wear up to 3 <b>Satchel</b> gear cards.<br/><br>When you <b>depart</b>, if you are not wearing any armor, for each <b>green affinity</b> you have, gain +1 strength token and add <b>1</b> to all hit locations.<br/><br>Spend <font class='kdm_font'>a</font> and a Flower or <b>Fresh Acanthus</b> resource to heal a permanent injury you or an adjacent survivor suffered this showdown.",
+			"expansion": "Flower Knight",
+			"name": "Acanthus Doctor",
+			"size": "-small"
+		},
+		{
+			"desc": "Ignore <b>Parry</b> when attempting to wound hit locations. (Attempt to wound these locations normally.)<br/><br>When a monster attacks you, roll 1d10. On a 6+, ignore 1 hit. Limit, once per round.",
+			"expansion": "Flower Knight",
+			"name": "Fencing",
+			"size": "-medium"
+		},
+		{
+			"desc": "All swords in your gear grid gain <b>deadly</b>.<br/><br>Gain +3 luck when attacking with a sword if you have the <b>Ghostly Beauty</b> and <b>Narcissistic</b> disorders.",
+			"expansion": "Flower Knight",
+			"name": "True Blade"
+		},
+		{
+			"desc": "If you are on an unoccupied space, you stand firm in the face of any force. You cannot be knocked down and may ignore <b>knockback</b>. (If you occupy the same space as a monster, impassable terrain tile, or another survivor, you are knocked down and suffer <b>knockback</b>.)",
+			"expansion": "Gorm",
+			"name": "Immovable Object",
+			"size": "-medium"
+		},
+		{
+			"desc": "When you <b>depart</b>, gain <b>1 shield<b> to all hit locations for each gear card in your grid with the <i>symbol</i> keyword.<br/><br>If you would roll on the severe injury table, roll on the <b>Worm Trauma</b> table on the other side of this card instead.<br/><br>When you die or forget this, the settlement gains the <b>Knowledge Worm</b> innovation.",
+			"expansion": "Lion god",
+			"name": "Necromancer",
+			"size": "-small"
+		},
+		{
+			"desc": "<table class='-nowrap-first-column'><tr><td>[1-3]: </td><td>A spray of blood and silver. Dead.</td></tr><tr><td>[4-5]: </td><td>The worm's coil tightens sharply. Gain 2 bleeding tokens and -1 evasion token.</td></tr><tr><td>[6-7]: </td><td>A dizzying blow. Gain 1 bleeding token and 1d5 insanity.</td></tr><tr><td>[8]: </td><td>An inhuman voice screams in your bones. Gain 1 bleeding token and 1d5 insanity.</td></tr><tr><td>[9]: </td><td>The pain is infuriating! Gain 1 bleeding token and + 1 strength token.</td></tr><tr><td>[10]: </td><td>Molten metal issues from your mouth. You are knocked down and gain 1 iron strange resource.</td></tr></table>",
+			"expansion": "Lion god",
+			"name": "<i>Worm Trauma</i> table",
+			"size": "-xxsmall"
+		},
+		{
+			"desc": "When yu gain Hunt XP, you may decide not to gain it.<br/><br>When you <b>depart</b>, you may rotate up to 3 gear cards in your gear grid. This changes the location of their affinities and arrows. Otherwise, the gear functions normally.",
+			"expansion": "Lion Knight",
+			"name": "Ageless Apprentice",
+			"size": "-medium"
+		},
+		{
+			"desc": "At the start of the showdown, secretly write down on a scrap of paper which survivors will live and who will deal the killing blow. During the aftermath, if your predictions were correct, raise the settlement's Survival Limit by 1.",
+			"expansion": "Lion Knight",
+			"name": "Courtly Screenwriter",
+			"size": "-medium"
+		},
+		{
+			"desc": "Gain +1 accuracy and +1 strength for each permanent injury you have.<br/><br>You may always <b>depart</b>, even when retired.",
+			"expansion": "Manhunter",
+			"name": "Eternal Will"
+		},
+		{
+			"desc": "At the start of the showdown, gain the <b>Path of Gloom</b> survivor status card.<br/><br>There is a deadly, otherworldly presence about you. Other survivors cannot voluntarily end their movement adjacent to you.",
+			"expansion": "Slenderman",
+			"name": "Clarity of Darkness",
+			"size": "-medium"
+		},
+		{
+			"desc": "Gain +1 accuracy when attacking with Fist & Tooth.<br/><br>When you wound a monster, it gains -1 toughness until the end of your attack.<br/><br>You cannot use this if you are male.",
+			"expansion": "Spidicules",
+			"name": "Death Touch",
+			"size": "-medium"
+		},
+		{
+			"desc": "<table class='-nowrap-first-column'><tr><td>0:</td><td><i>nothing</i></td></tr><tr><td>1:</td><td>You may spend <font class='kdm_font'>a</font> while adjacent to another survivor to add <b>2 shield</b> to one of their hit locations.</td></tr><tr><td>2:</td><td>While all armor in your gear grid is silk and all jewelry is amber, gain +2 evasion.</td></tr><tr><td>3:</td><td>During the aftermath, roll 1d10 for each other survivor that died during the showdown. On a 7+, revive them.</td></tr></table>",
+			"expansion": "Spidicules",
+			"name": "Silk Surgeon",
+			"size": "-small"
+		},
+		{
+			"desc": "You cannot lose or remove this fighting art.<br/><br>Gain +1 strength for each <b>full red affinity</b> you have. You cannot be nominated for <b>Intimacy</b>. You ignore <b>Extreme Heat</b>.<br/><br>At the start of your act, lose 1 survival. At the end of your act, if your survival is 0 or you have any +1 strength tokens, your organs cook themselves and you die.",
+			"expansion": "Sunstalker",
+			"name": "Hellfire",
+			"size": "-small"
+		},
+		{
+			"desc": "Your body mysteriously absorbs light. At the start of the showdown, gain survival up to the settlement's Survival Limit.<br/><br>If you have any +1 strength tokens, you may spend them all to perform the <b>Surge</b> survival action (following all of its normal rules and restrictions).",
+			"expansion": "Sunstalker",
+			"name": "Sun Eater",
+			"size": "-medium"
+		},
+		{
+			"desc": "You no longer cast a shadow and you never hesitate. Ignore First Strike.<br/><br>On a <b>Perfect Hit</b>, your first wound attempt of the attack automatically succeeds and inflicts a critical wound.<br/><br>If you die during the showdown, place a Shade minion in the space you occupied.",
+			"expansion": "Sunstalker",
+			"name": "Suppressed Shadow",
+			"size": "-small"
+		},
+		{
+			"desc": "Swords in your gear grid gain <b>Block 1</b>.<br/><br>When you block a hit with a sword, your next attack that round with a sword gains +2 accuracy, +2 strength, +2 speed. Limit, once per round.<br/><br> During the settlement phase you may spend <font class='kdm_font'>d</font> to train a survivor. They gain the <b>Black Guard Style</b> secret fighting art. You lose it and suffer the <b>broken arm</b> severe injury.",
+			"expansion": "percival",
+			"name": "Black Guard Style",
+			"size": "-small"
+		}
+	],
+	"injuries": [
+		{
+			"type": "Severe Head Injury",
+			"name": "Intracranial Hemorrhage",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>You cannot gain or spend <strong>survival</strong>"
+		},
+		{
+			"type": "Severe Head Injury",
+			"name": "Deaf",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>-1 permanent evasion.<br><br>You cannot be encouraged."
+		},
+		{
+			"type": "Severe Head Injury",
+			"name": "Blind",
+			"desc": "<span class='-text-smaller'>(can record twice)</span><br>Gain +1 bleeding token.<br><br>First Injury: -1 permanent accuracy.<br>Second Injury: -4 permanent accuracy and retire at end of showdown or settlement phase.",
+			"size": "-medium"
+		},
+		{
+			"type": "Severe Head Injury",
+			"name": "Shattered Jaw",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>You cannot <strong>consume</strong>.<br><br>You cannot <strong>Encourage</strong>."
+		},
+		{
+			"type": "Severe Arm Injury",
+			"name": "Dismembered Arm",
+			"desc": "<span class='-text-smaller'>(can record twice)</span><br>Gain +1 bleeding token.<br><br>First Injury: Cannot activate two-handed weapons.<br>Second Injury: Cannot activate any weapons."
+		},
+		{
+			"type": "Severe Arm Injury",
+			"name": "Ruptured Muscle",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>You cannot activate <strong>Fighting Arts</strong>."
+		},
+		{
+			"type": "Severe Arm Injury",
+			"name": "Contracture",
+			"desc": "<span class='-text-smaller'>(can record multiple times)</span><br>Gain +1 bleeding token.<br><br>-1 permanent accuracy"
+		},
+		{
+			"type": "Severe Arm Injury",
+			"name": "Broken Arm",
+			"desc": "<span class='-text-smaller'>(can record twice)</span><br>Gain +1 bleeding token.<br><br>-1 permanent accuracy.<br><br>-1 permanent strength."
+		},
+		{
+			"type": "Severe Arm Injury",
+			"name": "Dislocated Shoulder",
+			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br><br>You cannot activate two-handed or paired weapons or use block."
+		},
+		{
+			"type": "Severe Body Injury",
+			"name": "Gaping Chest Wound",
+			"desc": "<span class='-text-smaller'>(can record multiple times)</span><br>Gain +1 bleeding token.<br><br>-1 permanent strength."
+		},
+		{
+			"type": "Severe Body Injury",
+			"name": "Destroyed Back",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>-1 permanent movement.<br><br>Cannot activate gear with 2+ strength."
+		},
+		{
+			"type": "Severe Body Injury",
+			"name": "Disemboweled",
+			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br>Skip next hunt.<br><br>Movement is 1.<br><br>If you are the only survivor alive when showdown ends, you die.",
+			"size": "-medium"
+		},
+		{
+			"type": "Severe Body Injury",
+			"name": "Broken Rib",
+			"desc": "<span class='-text-smaller'>(can record multiple times)</span><br>Gain +1 bleeding token.<br><br>-1 permanent speed."
+		},
+		{
+			"type": "Severe Waist Injury",
+			"name": "Intestinal Prolapse",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>You cannot equip gear to your waist."
+		},
+		{
+			"type": "Severe Waist Injury",
+			"name": "Warped Pelvis",
+			"desc": "<span class='-text-smaller'>(can record multiple times)</span><br>Gain +1 bleeding token.<br><br>-1 permanent luck."
+		},
+		{
+			"type": "Severe Waist Injury",
+			"name": "Destroyed Genitals",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token, a random disorder, and +3 insanity.<br><br>You are Knocked Down.<br><br>You cannot be nominated for <strong>Intimacy</strong>.",
+			"size": "-medium"
+		},
+		{
+			"type": "Severe Waist Injury",
+			"name": "Broken Hip",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>-1 permanent movement.<br><br>You cannot <strong>Dodge</strong>."
+		},
+		{
+			"type": "Severe Waist Injury",
+			"name": "Slashed Back",
+			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br><br>You cannot <strong>Surge</strong>."
+		},
+		{
+			"type": "Severe Waist Injury",
+			"name": "Bruised Tail-bone",
+			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br><br>You are Knocked Down.<br><br>You cannot <strong>Dash</strong>."
+		},
+		{
+			"type": "Severe Leg Injury",
+			"name": "Dismembered Leg",
+			"desc": "<span class='-text-smaller'>(can record twice)</span><br>Gain +1 bleeding token.<br><br>-2 permanent movement.<br><br>You cannot <strong>Dash</strong>.<br>Second Injury: Retire at end of showdown or settlement phase",
+			"size": "-medium"
+		},
+		{
+			"type": "Severe Leg Injury",
+			"name": "Hamstrung",
+			"desc": "<span class='-text-smaller'>(can record only once)</span><br>Gain +1 bleeding token.<br><br>You cannot use Fighting Arts or Abilities."
+		},
+		{
+			"type": "Severe Leg Injury",
+			"name": "Torn Achilles Tendon",
+			"desc": "<span class='-text-smaller'>(until the showdown ends)</span><br>Gain +1 bleeding token.<br>Skip next hunt.<br><br>You cannot <strong>Dash</strong>"
+		},
+		{
+			"type": "Severe Leg Injury",
+			"name": "Broken Leg",
+			"desc": "<span class='-text-smaller'>(can record twice)</span><br>Gain +1 bleeding token.<br><br>-1 permanent Movement<br><br>When suffered, adjacent survivors suffer 1 brain damage."
+		},
+		{
+			"type": "Brain Trauma",
+			"name": "Frenzy",
+			"desc": "(can gain multiple times)<br>Gain +1d5 insanity.<br>Gain +1 speed, +1 strength tokens.<br>You cannot spend survival (unless you have <strong>Bitter Frenzy</strong>). You cannot use fighting arts, weapon specialization or mastery.<br><br>(Lasts until end of showdown)",
+			"size": "-small"
+		},
+		{
+			"type": "Impairment",
+			"name": "Endless Babble",
+			"desc": "When you <strong>depart</strong>, departing survivors gain +1 insanity.<br><br>You cannot <strong>encourage</strong>."
+		},
+		{
+			"type": "Impairment",
+			"name": "Marrow Hunger",
+			"desc": "If the <strong>Murder</strong> or <strong>Skull Eater</strong> settlement events are drawn, nominate <strong>this survivor</strong>."
+		},
+		{
+			"type": "",
+			"name": "&nbsp;",
+			"desc": ""
+		}
+	],
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": "Ageless",
+			"desc": "<span class='-text-smaller'>(Saviors cannot use Ageless)</span><br>You may <strong>hunt</strong> if you are <strong>retired</strong>.<br><br>When you gain <strong>Hunt XP</strong>, you may decide not to gain it."
+		},
+		{
+			"type": "Ability",
+			"name": "Acid Palms",
+			"desc": "Add 1d10 strength to wound attempts when attacking with <strong>Fist & Tooth</strong>."
+		},
+		{
+			"type": "Ability",
+			"name": "Analyze",
+			"desc": "At the <strong>start of the survivors turn</strong>, if you are adjacent to the monster, reveal the top <font class='kdm_font'>b</font>, then place it back on top of the deck."
+		},
+		{
+			"type": "Ability",
+			"name": "Bitter Frenzy",
+			"desc": "Each Showdown, the first time you suffer the <strong>Frenzy</strong> brain trauma, gain 1d10 Survival. You may spend survival while Frenzied."
+		},
+		{
+			"type": "Ability",
+			"name": "Burnt Nerves",
+			"desc": "You are immune to <strong>bash</strong>."
+		},
+		{
+			"type": "Ability",
+			"name": "Caratosis",
+			"desc": "Your attack may gain X <strong>automatic hits</strong>. X cannot be more than your total <div class='affinity -red'></div>.<br><br>When the attack ends, gain +X <strong>hunt XP</strong>.<br><br>When you trigger Age 2, gain the <strong>Beast of Caratosis</strong> secret fighting art.",
+			"size": "-medium"
+		},
+		{
+			"type": "Ability",
+			"name": "Crystal Skin",
+			"desc": "You ignore <strong>cursed</strong> and cannot wear armor.<br><br>When you <strong>depart</strong> gain 3 to all hit locations.<br><br>Suffer -2 to the result of all <strong>severe injury</strong> rolls.<br><br>When you participate In <strong>intimacy</strong>, newborns gain <strong>Crystal Skin</strong> in addtion to any other roll results.",
+			"size": "-small"
+		},
+		{
+			"type": "Ability",
+			"name": "Dormenatus",
+			"desc": "When you suffer damage, you may gain X <strong>armor points</strong> to each hit location. X cannot be more than your total <div class='affinity -green'></div>.<br><br>After the damage is resolved, gain +X <strong>hunt XP</strong>.",
+			"size": "-medium"
+		},
+		{
+			"type": "Ability",
+			"name": "Explore",
+			"desc": "When you roll on an <strong>investigate</strong> table, add +2 to your roll result."
+		},
+		{
+			"type": "Ability",
+			"name": "Fated Battle",
+			"desc": "At the <strong>start of a showdown</strong> with the picked monster, gain +1 <strong>speed token</strong>."
+		},
+		{
+			"type": "Ability",
+			"name": "Homing Instinct",
+			"desc": "Add +5 to your rolls on the <strong>Run Away</strong> story event."
+		},
+		{
+			"type": "Ability",
+			"name": "Iron Will",
+			"desc": "You cannot be <strong>knocked down</strong>.<br><br>Reduce all <strong>knockback</strong> you suffer to <strong>knockback 1</strong>."
+		},
+		{
+			"type": "Ability",
+			"name": "Legendcaller",
+			"desc": "Once per lifetime, when on a <strong>hunt board</strong> space, after the <strong>Overwhelming Darkness</strong> space:<br><br>In place of rolling a random hunt event, use <strong>53</strong> as your result."
+		},
+		{
+			"type": "Ability",
+			"name": "Leyline Walker",
+			"desc": "While there is no <strong>armor</strong> or <strong>accessory</strong> gear in your gear grid, gain +3 <strong>evasion</strong>."
+		},
+		{
+			"type": "Ability",
+			"name": "Lucernae",
+			"desc": "<strong>Wound attempts</strong> may gain X <strong>Luck</strong>. X cannot be more than your total <div class='affinity -blue'></div>.<br><br>When the attack ends, gain +X <strong>hunt XP</strong>."
+		},
+		{
+			"type": "Ability",
+			"name": "Mad Grade",
+			"desc": "Once per <strong>showdown</strong>, as a monster draws an <font class='kdm_font'>b</font>, name a card.<br><br>If the <font class='kdm_font'>b</font> drawn is the named card, gain +1 <strong>evasion token</strong>."
+		},
+		{
+			"type": "Ability",
+			"name": "Mad Oracle",
+			"desc": "Once per <strong>showdown</strong>, as a monster draws an <font class='kdm_font'>b</font>, name a card.<br><br>If the <font class='kdm_font'>b</font> drawn is the named card, gain +1 <strong>evasion token</strong>."
+		},
+		{
+			"type": "Ability",
+			"name": "Matchmaker",
+			"desc": "When you are a <strong>returning survivor</strong>, once per lantern year, you may spend <font class='kdm_font'>d</font> to roll on the <strong>Intimacy event</strong>."
+		},
+		{
+			"type": "Ability",
+			"name": "Metal Maw",
+			"desc": "Your <strong>Fist & Tooth</strong> attacks gain <strong>Sharp</strong>:<br><br>Add 1d10 <strong>strength</strong> to each <strong>wound attempt</strong>."
+		},
+		{
+			"type": "Ability",
+			"name": "Peerless",
+			"desc": "When you gain <strong>Insanity</strong>, you may gain an equal amount of <strong>Survival</strong>."
+		},
+		{
+			"type": "Ability",
+			"name": "Possessed",
+			"desc": "You cannot use <strong>weapon specialization</strong>, <strong>weapon mastery</strong>, or <strong>fighting arts</strong>."
+		},
+		{
+			"type": "Ability",
+			"name": "Prepared",
+			"desc": "When rolling to determine a <strong>straggler</strong>, add your <strong>hunt XP</strong> to your roll result."
+		},
+		{
+			"type": "Ability",
+			"name": "Sour Death",
+			"desc": "When you are <strong>knocked down</strong>, you may <strong>encourage</strong> yourself (even if you are Deaf). If you do, gain <strong>+1 Strength</strong> token."
+		},
+		{
+			"type": "Ability",
+			"name": "Stalwart",
+			"desc": "Ignore <strong>knocked down</strong> effects of <strong>brain trauma</strong>, <strong>disorders</strong>, and <strong>intimidation</strong> actions."
+		},
+		{
+			"type": "Ability",
+			"name": "Story of the Forsaker",
+			"desc": "You cannot be <strong>knocked down</strong> during a showdown with a <strong>Nemesis Monster</strong>."
+		},
+		{
+			"type": "Ability",
+			"name": "Story of the Goblin",
+			"desc": "Once per <strong>showdown</strong>, you may roll 1d10. On a 3+, gain the <strong>priority target</strong> token and the monster gains <strong>+1 damage</strong> token."
+		},
+		{
+			"type": "Ability",
+			"name": "Story of the Young Hero",
+			"desc": "At the start of each of your <strong>acts</strong>, you may choose to gain 1 <strong>survival</strong> and 2 <strong>bleeding</strong> tokens."
+		},
+		{
+			"type": "Ability",
+			"name": "Sweet Battle",
+			"desc": "Once per round, you may <strong>surge</strong> without spending <strong>survival</strong>, but it must be used to activate a weapon."
+		},
+		{
+			"type": "Ability",
+			"name": "Thundercaller",
+			"desc": "Once per lifetime, when on a <strong>hunt board</strong> space, after the <strong>Overwhelming Darkness</strong> space:<br><br>In place of rolling a random hunt event, use <strong>100</strong> as your result."
+		},
+		{
+			"type": "Ability",
+			"name": "Tinker",
+			"desc": "When you are a <strong>returning survivor</strong>, gain <strong>+1</strong> <font class='kdm_font'>d</font> to use this <strong>settlement phase</strong>."
+		},
+		{
+			"type": "Ability",
+			"name": "&nbsp;",
+			"desc": ""
+		},
+		{
+			"desc": "During the <strong>Aftermath</strong>, if you gain <strong>weapon XP</strong>, gain +3 additional <strong>weapon XP</strong> and 1 <strong>iron strange</strong> resource as you cough up a hunk of your own solidified blood.",
+			"expansion":"",
+			"name": "Heart of the Storm",
+			"type": "Ability"
+		},
+		{
+			"desc": "For each different color <strong>affinity</strong> on your gear grid, gain 1 <strong>armor</strong> to all hit locations.",
+			"expansion":"",
+			"name": "Iridescent Hide",
+			"type": "Ability"
+		},
+		{
+			"desc": "Once per <strong>settlement phase</strong> you may spend <font class='kdm_font'>d</font> <font class='kdm_font'>d</font> to carve a prosthetic limb for a survivor.  If you do, that survivor removes one <strong>\"dismembered\" injury</strong> and adds 1 <strong>bone resource</strong> to the settlement storage.",
+			"expansion":"",
+			"name": "Limb-maker",
+			"type": "Ability",
+			"size": "-medium"
+		},
+		{
+			"desc": "<br>Gain <div class='affinity -all'></div> permanent affinity.<br><br>For each <div class='affinity -red'></div> <div class='affinity -green'></div> <div class='affinity -blue'></div>, once per round, during your turn, <strong>before you roll a die</strong>, you may <strong>choose</strong> the result of that die.<br><br>In <strong>Aftermath</strong>, gain <strong>+3 additional Hunt XP</strong>.<br><br>You cannot put \"<strong>other</strong>\" gear in your grid.<br><br>Gain a <strong>permanent +1 speed</strong> with each <strong>Age</strong> milestone.<br><br>When you <strong>retire</strong>, you cease to exist.",
+			"expansion":"",
+			"name": "Nebulae",
+			"type": "Ability",
+			"size":"-small"
+		},
+		{
+			"desc": "At the start of the <strong>showdown</strong> you may look through the <font class='kdm_font'>b</font> <strong> deck</strong>, then shuffle it and return it.",
+			"expansion":"",
+			"name": "Oracle's Eye",
+			"type": "Ability"
+		},
+		{
+			"desc": "<br>When you gain this ability, <strong>name a survivor</strong>.  The named survivor is your <strong>partner</strong>.<br><br>When you <strong>depart</strong>, if your partner also departs, gain <strong>+2 survival</strong>.<br><br>During the <strong>showdown phase</strong>, if you are <strong>adjacent</strong> to your partner, gain <strong>+1 strength</strong>.<br><br>You may only participate in <font class='kdm_font'>g</font> <strong>Intimacy</strong> if your partner is <strong>also nominated</strong> for it.<br><br>When your partner <strong>dies</strong>, gain a <strong>random disorder</strong> and <strong>remove this ability</strong>.",
+			"expansion":"",
+			"name": "Partner",
+			"type": "Ability",
+			"size":"-xsmall"
+		},
+		{
+			"desc": "Before drawing hit locations, you may <strong>name a hit location</strong>.  If you draw any hit locations with that name during your attack, gain <strong>+3 insanity</strong> and <strong>+10 strength</strong> when attempting to wound that location.",
+			"expansion":"",
+			"name": "Presage",
+			"type": "Ability",
+			"size":"-medium"
+		},
+		{
+			"desc": "When you would suffer a \"<strong>Dismembered</strong>\" severe injury, ignore it and gain <strong>+1 bleeding token</strong> instead",
+			"expansion":"",
+			"name": "Pristine",
+			"type": "Ability"
+		},
+		{
+			"desc": "Once per showdown, you may consume a <strong>disorder</strong> from an adjacen survivor.<br><br>If you do, that survivor removes that <strong>disorder</strong> and gains <strong>+1 bleeding token</strong>.  You also gain a permanent <strong>+1 strength</strong>.<br><br>During the <strong>Aftermath</strong>, if you did not consume a disorder in this way, you <strong>die</strong>.",
+			"expansion":"",
+			"name": "Psychovore",
+			"type": "Ability",
+			"size":"-medium"
+		},
+		{
+			"desc": "If you are standing at the start of your turn, reveal the top <strong>2</strong> <font class='kdm_font'>b</font>, then return them in any order to the top of the monster's <font class='kdm_font'>b</font> <strong>deck</strong>.",
+			"expansion":"",
+			"name": "Rooted to All",
+			"type": "Ability"
+		},
+		{
+			"desc": "You may spend <font class='kdm_font'>a</font> to freely exchange <strong>tokens</strong> with adjacent survivors who also have <strong>Super Hair</strong>.",
+			"expansion":"",
+			"name": "Super Hair",
+			"type": "Ability"
+		},
+		{
+			"desc": "You cannot carry <strong>two-handed</strong> gear.<br><br>Any time you <strong>roll to attack</strong>, on a <strong>perfect hit</strong>, gain <strong>+5 insanity</strong> and <strong>+1 luck</strong> on that attack.<br><br>Any time you <strong>roll to attack</strong>, on a natural 1, suffer <strong>5 brain damage</strong> and <strong>-1 luck</strong> on that attack.",
+			"expansion":"",
+			"name": "Twelve Fingers",
+			"type": "Ability",
+			"size":"-medium"
+		},
+		{
+			"desc": "You gain <strong>+1 evasion</strong> for each <strong>bleeding token</strong> you have.",
+			"expansion":"",
+			"name": "Way of the Rust",
+			"type": "Ability"
 		}
 	]
 }

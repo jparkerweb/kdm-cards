@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>kdm-cards-expansions</title>
+	<title>kdm-cards</title>
 	<link rel="stylesheet" href="cards.css">
 </head>
 <body>
@@ -12,38 +12,48 @@
 		<div class="card -disorder" v-for="disorder in cards.disorder">
 			<div class="card__title" v-html="disorder.name"></div>
 			<div class="card__text">
-				<div class="text__content" :class="disorder.size ? disorder.size : ''" v-html="disorder.desc"></div>
+				<div class="text__content"
+					:class="disorder.size ? disorder.size : ''"
+					v-html="disorder.desc"
+				></div>
 			</div>
-			<div class="card__expansion">{{ disorder.expansion }}</div>
+			<div class="card__expansion" v-if="disorder.expansion">{{ disorder.expansion }}</div>
 		</div>
-		
+	
 		<div class="card -fighting-art" v-for="fa in cards.fa">
 			<div class="card__title" v-html="fa.name"></div>
 			<div class="card__text" :class="fa.size ? fa.size : ''">
-				<div class="text__content" :class="fa.size ? fa.size : ''" v-html="fa.desc"></div>
+				<div class="text__content" v-html="fa.desc" :class="fa.size ? fa.size : ''"></div>
 			</div>
-			<div class="card__expansion">{{ fa.expansion }}</div>
+			<div class="card__expansion" v-if="fa.expansion">{{ fa.expansion }}</div>
 		</div>
-		
+	
 		<div class="card -secret-fighting-art" v-for="sfa in cards.sfa">
 			<div class="card__title" v-html="sfa.name"></div>
 			<div class="card__text" :class="sfa.size ? sfa.size : ''">
 				<div class="text__content" :class="sfa.size ? sfa.size : ''" v-html="sfa.desc"></div>
 			</div>
-			<div class="card__expansion">{{ sfa.expansion }}</div>
+			<div class="card__expansion" v-if="sfa.expansion">{{ sfa.expansion }}</div>
 		</div>
 
+		<div class="card -injuries" v-for="injury in cards.injuries">
+			<div class="card__title" v-html="injury.name"></div>
+			<div class="card__text">
+				<div class="text__content" :class="injury.size ? injury.size : ''" v-html="injury.desc"></div>
+			</div>
+			<div class="card__type">{{ injury.type }}</div>
+		</div>
+		
 		<div class="card -abilities" v-for="ability in cards.abilities">
 			<div class="card__title" v-html="ability.name"></div>
 			<div class="card__text" :class="ability.size ? ability.size : ''">
 				<div class="text__content" :class="ability.size ? ability.size : ''" v-html="ability.desc"></div>
 			</div>
-			<div class="card__expansion">{{ ability.expansion }}</div>
+			<div class="card__expansion" v-if="ability.expansion">{{ ability.expansion }}</div>
 			<div class="card__type">{{ ability.type }}</div>
 		</div>
-
 	</div>
 	
-	<script src="cardsExpansions.js"></script>
+	<script src="cards.js"></script>
 </body>
 </html>

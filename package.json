@@ -1,10 +1,12 @@
 {
   "name": "kdm-cards",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "website": "npx ws -d ./website",
+    "app": "node app"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +14,8 @@
     "axios": "0.18.0",
     "chromy": "0.5.11",
     "randomstring": "1.1.5",
-    "vue": "2.5.16",
-    "fs-extra": "5.0.0"
+    "vue": "2.5.17",
+    "fs-extra": "7.0.0",
+    "local-web-server": "2.6.0"
   }
 }
