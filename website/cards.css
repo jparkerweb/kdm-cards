@@ -7,8 +7,8 @@
 			url('/fonts/kdm-font-10-webfont.woff') format('woff'),
 			url('/fonts/kdm-font-10-webfont.woff2') format('woff2');
 }
-.kdm_font, .kdm_font_10 {font-family: 'kdm-font-10'; }
 
+.kdm_font, .kdm_font_10 {font-family: 'kdm-font-10'; }
 
 * {
 	-webkit-box-sizing: border-box;
@@ -83,12 +83,14 @@
 	background: #1f7d47;
 	color: #FFF;
 }
+
 .card .card__title {
-	padding: 1.578em 1.0528em .526em;
+	padding: .562em 1.0528em 1.578em;
 	background: lightblue;
 	text-align: center;
 	font-weight: 600;
 }
+
 .card .card__text {
 	padding: 0.5em 2em 1.7em;
 	-webkit-box-flex: 1;
@@ -134,7 +136,15 @@
 	text-align: center;
 	font-style: italic;
 }
-
+.card .card__type {
+	position: absolute;
+	top: 3.3em;
+	font-size: 0.56em;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-style: italic;
+}
 .card .card__text table.-nowrap-first-column td:first-of-type {
 	white-space: nowrap;
 	padding-right: 20px;
@@ -149,26 +159,46 @@
 }
 
 .affinity {
-	display: inline-block;
-	width: .7em;
-	height: .7em; 
-	background-clip:content-box;
-	padding:2px;
-	border:3px solid;
-	border-radius: 5px;
-}
+		position: relative;
+		display: inline-block;
+		width: .7em;
+		height: .7em;
+		border-radius: .12em; 
+	}
+
+	.affinity::after {
+		content:"";
+		position: absolute;
+		display: block;
+		width: .55em;
+		height: .55em;
+		border: .05em solid #D8D8D8;
+		top: .075em;
+		left: .075em;
+		box-sizing: border-box;	
+	}
+/*}*/
 
 .affinity.-red {
 	background-color: red;
-	border-color: red;
 }
 
 .affinity.-green {
 	background-color: green;
-	border-color: green;
 }
 
 .affinity.-blue {
 	background-color: blue;
-	border-color: blue;
+}
+
+.affinity.-all {
+	background-image: linear-gradient(
+		135deg, 
+		red, 
+		red 33%, 
+		green 33%, 
+		green 66%, 
+		blue 66%, 
+		blue
+	);
 }
