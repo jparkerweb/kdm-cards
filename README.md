@@ -29,3 +29,17 @@ Generate `disorder`, `fighting arts`, `secret fighting arts` and `abilities` car
 
 ### JSON Data Sources
 * https://github.com/toconnell/kdm-manager/blob/master/v2/api/assets/
+
+----
+
+## Example of Printed Cards
+
+![2](docs/printed-cards-2.jpg)
+![3](docs/printed-cards-3.jpg)
+![4](docs/printed-cards-4.jpg)
+![5](docs/printed-cards-5.jpg)
+![6](docs/printed-cards-6.jpg)
+![7](docs/printed-cards-7.jpg)
+![8](docs/printed-cards-8.jpg)
+![9](docs/printed-cards-9.jpg)
+![1](docs/printed-cards-1.jpg)
